@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Manu Magalhães",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "magmanu",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tech": {
+    "message": "Tech",
+    "description": "Navbar item with label Tech"
+  },
+  "item.label.Personal": {
+    "message": "Pessoal",
+    "description": "Navbar item with label Personal"
+  },
+  "item.label.[Series]": {
+    "message": "[Séries]",
+    "description": "Navbar item with label [Series]"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  }
+}

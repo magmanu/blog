@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Easter Egg",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "Tem nada aqui não, vai embora.",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Eu avisei",
+    "description": "The label for the left sidebar"
+  }
+}
