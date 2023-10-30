@@ -14,5 +14,8 @@ post:
 preview:
 	cd ./my-website && npm run build && npm run serve
 
-translate:
+translateUI:
 	cd ./my-website && npm run write-translations -- --locale pt-BR
+
+translateBR:
+	cp -rv my-website/$(blog)/$(folder) my-website/i18n/pt-BR/docusaurus-plugin-content-blog-$(blog)/$(folder)
