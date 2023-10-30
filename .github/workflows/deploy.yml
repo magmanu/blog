@@ -23,6 +23,7 @@ jobs:
         run: cd my-website && npm run build
 
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
