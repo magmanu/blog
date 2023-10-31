@@ -179,7 +179,7 @@ So let’s refactor the template again. We’ll use a Terraform function called 
 
 Now, we’ll try two ways to feed the template with our dynamic list.
 
-### 1. The simplest solution: static list
+### The simplest solution: static list
 
 One option is to create a variable that will pass a ready-made list for you:
 
@@ -218,7 +218,7 @@ module "my_step_function" {
 }
 ```
 
-### 2. The logic-heavy solution: dynamic list
+### The logic-heavy solution: dynamic list
 
 What if you want the list itself to be dynamic too? For example, you want the values for `Next` and `Variable` to be extracted from a parameter and injected to list before it’s sent to the json?
 In our example, the values that populate `Next` and `Variable` come from keys provided by `ssm_params`, in the top level file:
