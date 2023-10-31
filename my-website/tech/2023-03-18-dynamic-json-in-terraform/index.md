@@ -9,9 +9,9 @@ In this article I’ll use Step Functions as a case study, but you can do it wit
 
 ## What we’re going to do
 The following JSON will become dynamic. We’ll replace static values with:
-1. A variable
-2. A dynamic list
-3. One or more dynamic objects
+1. [A variable](#case-1-injecting-a-variable-into-json)
+2. [A dynamic list](#case-2-injecting-a-list-into-a-json)
+3. [One or more dynamic objects](#case-3-injecting-an-object-into-a-json)
 
 <!--truncate-->
 
