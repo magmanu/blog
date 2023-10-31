@@ -140,7 +140,7 @@ module "my_step_function" {
 
 To check that your variable was successfully injected, run `terraform init && terraform plan`.
 
-## Case 2: Injecting a dynamic list into a JSON
+## Case 2: Injecting a list into a JSON
 
 As a refresher, this is the list we’re refactoring:
 
