@@ -10,3 +10,24 @@
   width: 200px;
 }
 
+.pngContainer {
+    height: 200px;
+    width: 200px;
+	filter:
+	    invert(.6);
+
+   	   /* brightness(1000%) grayscale(100%) */
+   	   /* To change the image color to the white */
+   	   /* opacity(0.1) */
+   	   /* To apply the color all over the image */
+   	   /* drop-shadow(0 0 0 red) */
+   	   /* To apply my costum color */
+   	   /* drop-shadow(0 0 0 red) */
+   	   /* To apply my costum color stronger */
+   	   /* drop-shadow(0 0 0 red) drop-shadow(0 0 0 red) drop-shadow(0 0 0 red); */
+}
+
+.pngContainer img {
+  filter: drop-shadow(0px 1000px 0 red);
+  transform: translateY(-1000px);
+}

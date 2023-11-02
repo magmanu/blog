@@ -10,8 +10,8 @@
     border-right: none;
 } */
 
-navbar-sidebar {
-    background-color: var(---ifm-dropdown-background-color);
+.navbar-sidebar__backdrop {
+    background-color: var(--ifm-dropdown-background-color);
 }
 
 html {
@@ -22,6 +22,11 @@ html {
 .hero {
     color: var(--ifm-color-primary)
 }
+
+.title_f1Hy, h2.title_f1Hy {
+    font-size: 2.6rem;
+}
+
 aside{
     background-color: var(--ifm-dropdown-background-color);
     /* --ifm-toc-border-color: transparent; */

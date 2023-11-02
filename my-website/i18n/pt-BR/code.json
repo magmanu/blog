@@ -276,9 +276,6 @@
   "The soul that powers the brain.": {
     "message": "A alma por trás do código."
   },
-  "The woman that fuels the code.": {
-    "message": ""
-  },
   "Code, cloud, pipelines, security...": {
     "message": "Código, nuvem, pipelines, segurança..."
   },
@@ -290,5 +287,8 @@
   },
   "Where": {
     "message": "Onde"
+  },
+  "Code, Cloud & App Sec": {
+    "message": "Código, Nuvem & Segurança"
   }
 }
