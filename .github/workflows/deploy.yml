@@ -3,7 +3,9 @@ on:
   push:
     branches:
       - main
-#   workflow_dispatch:
+  repository_dispatch:
+    types: [push-content]
+
 
 permissions:
   contents: write
@@ -12,10 +14,31 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout frontend
+        uses: actions/checkout@v3
+        with:
+            path: blog
+
+      - name: Checkout articles
+        uses: actions/checkout@v3
+        with:
+            repository: ${{ secrets.ARTICLES }}
+            path: articles
+            token: ${{ secrets.BLOG }}
+
+      - name: Move frontend to root
+        run: |
+            mv blog/* $GITHUB_WORKSPACE/.
+            rm -rf blog
+            mv articles/personal/* $GITHUB_WORKSPACE/my-website/personal/.
+            mv articles/personal_br/* $GITHUB_WORKSPACE/my-website/i18n/pt-BR/docusaurus-plugin-content-blog-personal
+            mv articles/tech/* $GITHUB_WORKSPACE/my-website/tech/.
+            mv articles/tech_br/* $GITHUB_WORKSPACE/my-website/i18n/pt-BR/docusaurus-plugin-content-blog-tech
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+
       - name: Install dependencies
         run: cd my-website && npm ci
 
