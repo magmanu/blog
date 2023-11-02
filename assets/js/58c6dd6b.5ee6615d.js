@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3744],{9175:e=>{e.exports=JSON.parse('{"label":"IaC","permalink":"/blog/tech/tags/ia-c","allTagsPath":"/blog/tech/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8910],{5739:e=>{e.exports=JSON.parse('{"label":"terraform","permalink":"/blog/tech/tags/terraform","allTagsPath":"/blog/tech/tags","count":2}')}}]);

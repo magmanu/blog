@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9982],{8839:e=>{e.exports=JSON.parse('{"permalink":"/blog/tech/tags/test","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Tech Musings"}')}}]);

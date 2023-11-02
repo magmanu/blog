@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7638],{7810:a=>{a.exports=JSON.parse('{"label":"gambiarra","permalink":"/blog/pt-BR/tech/tags/gambiarra","allTagsPath":"/blog/pt-BR/tech/tags","count":1}')}}]);

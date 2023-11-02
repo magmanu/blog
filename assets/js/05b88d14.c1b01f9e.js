@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7607],{2792:e=>{e.exports=JSON.parse('{"label":"workarounds","permalink":"/blog/tech/tags/workarounds","allTagsPath":"/blog/tech/tags","count":1}')}}]);
