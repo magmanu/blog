@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'my-website/**'
   repository_dispatch:
     types: [push-content]
 
