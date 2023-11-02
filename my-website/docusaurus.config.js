@@ -136,19 +136,19 @@ const config = {
                         title: 'RSS Feed',
                         items: [
                             {
-								label: '🇬🇧 RSS - Personal Blog',
+								label: '🇬🇧 Personal',
 								href: 'https://magmanu.github.io/blog/personal/rss.xml',
                             },
                             {
-								label: '🇬🇧 RSS - Tech Blog',
+								label: '🇬🇧 Tech',
 								href: 'https://magmanu.github.io/blog/tech/rss.xml',
                             },
                             {
-								label: '🇧🇷 RSS - Blog Pessoal',
+								label: '🇧🇷 Pessoal',
 								href: 'https://magmanu.github.io/blog/personal/rss.xml',
                             },
                             {
-								label: '🇧🇷 RSS - Blog Tech',
+								label: '🇧🇷 Tech',
 								href: 'https://magmanu.github.io/blog/personal/rss.xml',
                             },
                         ],
