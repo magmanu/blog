@@ -34,6 +34,7 @@ jobs:
             mv articles/personal_br/* $GITHUB_WORKSPACE/my-website/i18n/pt-BR/docusaurus-plugin-content-blog-personal
             mv articles/tech/* $GITHUB_WORKSPACE/my-website/tech/.
             mv articles/tech_br/* $GITHUB_WORKSPACE/my-website/i18n/pt-BR/docusaurus-plugin-content-blog-tech
+            ls -la $GITHUB_WORKSPACE/my-website/personal
 
       - uses: actions/setup-node@v3
         with:
