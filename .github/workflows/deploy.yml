@@ -26,7 +26,7 @@ jobs:
             path: articles
             token: ${{ secrets.BLOG }}
 
-      - name: Move frontend to root
+      - name: Move files to root
         run: |
             mv blog/* $GITHUB_WORKSPACE/.
             rm -rf blog
