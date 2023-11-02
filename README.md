@@ -1,4 +1,5 @@
 # blog
+<img src="./my-website/static/img/logo_bw_light.png" alt="social-card" width="20%" align="right"/>
 
 🇬🇧 This is where I collect my thoughts. Currently this is a collection of a technical blog and a personal one, in EN and PTBR.
 You might notice I express myself more freely in Portuguese, though, especially for personal stuff. Go give it a read at [https://magmanu.github.io/blog/](https://magmanu.github.io/blog/) and select the language of your choice.
@@ -8,17 +9,17 @@ You might notice I express myself more freely in Portuguese, though, especially 
 ## Implementation/Implementação
 
 🇬🇧  
-**- How is this different from regular Docusaurus websites?**  
+**How is this different from regular Docusaurus websites?**  
 
 This repo houses the UI only. The content is managed in a separate, private repository. When an article is raised to production quality, the content repo pushed a webhook to this repo, which then pulls the content and builds the website.
 
-I decided to make it that way mainly because  
+I decided to make it so mainly because  
 1. I realy don't like to make my drafts public
 2. GitHub Actions is cool
 3. For some reason I want to version the frontend
 
-🇧🇷
-**- O que esse blog tem de diferente de um site Docusaurus normal?**
+🇧🇷  
+**O que esse blog tem de diferente de um site Docusaurus normal?**
 
 Este repo contém apenas a UI. O conteúdo fica em um repo privado e separado. Quando um artigo fica printo para publicação, o repo de conteúdo espoleta um webhook neste repo, que então puxa o conteúdo e faz um build do site.
 
