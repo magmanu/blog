@@ -1,12 +1,19 @@
 # blog
-<img src="./my-website/static/img/logo_bw_light.png" alt="social-card" width="20%" align="right"/>
+<img src="./my-website/static/img/logo_bw_light.png" alt="social-card" width="15%" align="right"/>
 
-🇬🇧 This is where I collect my thoughts. Currently this is a collection of a technical blog and a personal one, in EN and PTBR.
-You might notice I express myself more freely in Portuguese, though, especially for personal stuff. Go give it a read at [https://magmanu.github.io/blog/](https://magmanu.github.io/blog/) and select the language of your choice.
+| Link | 🇬🇧 | 🇧🇷  |
+| --- | :---: | :---: |
+| Tech Blog | [Link](https://magmanu.github.io/blog/tech) \| [RSS](https://magmanu.github.io/blog/tech/rss.xml) | [Link](https://magmanu.github.io/blog/tech) \| [RSS](https://magmanu.github.io/blog/pt-br/tech/rss.xml)|
+| Personal Blog | [Link](https://magmanu.github.io/blog/personal) \| [RSS](https://magmanu.github.io/blog/personal/rss.xml) | [Link](https://magmanu.github.io/blog/pt-br/personal) \| [RSS](https://magmanu.github.io/blog/pt-br/personal/rss.xml) |
 
-🇧🇷 Aqui é onde eu tento arrumar os pensamentos. No momento, minha página reúne um blog técnico e outro pessoal, em PTBR e EN. Como vc talvez note, eu fico mais soltinha em português. Dá uma olhada lá: [https://magmanu.github.io/blog/pt-br](https://magmanu.github.io/blog/pt-BR) e escolha o idioma que preferir.
+🇬🇧  
+This is where I collect my thoughts. Currently this is a collection of a technical blog and a personal one, in EN and PTBR.
+You might notice I express myself more freely in Portuguese, though, especially for personal stuff. Give it a read!
 
-## Implementation/Implementação
+🇧🇷  
+Aqui é onde tento arrumar os pensamentos. No momento, minha página reúne um blog técnico e outro pessoal, em PTBR e EN. Como vc talvez note, eu fico mais soltinha em português. Dá uma olhada lá!
+
+## Implementation / Implementação
 
 🇬🇧  
 **How is this different from regular Docusaurus websites?**  
@@ -28,7 +35,7 @@ Decidi fazer assim principalmente porque
 2. GitHub Actions é legal
 3. Sei lá porque mas quero versionar o frontend
 
-## Commands/Comandos
+## Local Dev / Desenvolvimento local
 
 `blog`: `tech|personal`
 

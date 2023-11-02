@@ -30,5 +30,25 @@
   "link.item.label.LinkedIn": {
     "message": "LinkedIn",
     "description": "The label of footer link with label=LinkedIn linking to https://www.linkedin.com/in/manumagalhaes/"
+  },
+  "link.title.RSS Feed": {
+    "message": "Feed RSS",
+    "description": "The title of the footer links column with title=RSS Feed in the footer"
+  },
+  "link.item.label.🇬🇧 RSS - Personal Blog": {
+    "message": "🇬🇧 RSS - Personal Blog",
+    "description": "The label of footer link with label=🇬🇧 RSS - Personal Blog linking to https://magmanu.github.io/blog/personal/rss.xml"
+  },
+  "link.item.label.🇬🇧 RSS - Tech Blog": {
+    "message": "🇬🇧 RSS - Tech Blog",
+    "description": "The label of footer link with label=🇬🇧 RSS - Tech Blog linking to https://magmanu.github.io/blog/tech/rss.xml"
+  },
+  "link.item.label.🇧🇷 RSS - Blog Pessoal": {
+    "message": "🇧🇷 RSS - Blog Pessoal",
+    "description": "The label of footer link with label=🇧🇷 RSS - Blog Pessoal linking to https://magmanu.github.io/blog/personal/rss.xml"
+  },
+  "link.item.label.🇧🇷 RSS - Blog Tech": {
+    "message": "🇧🇷 RSS - Blog Tech",
+    "description": "The label of footer link with label=🇧🇷 RSS - Blog Tech linking to https://magmanu.github.io/blog/personal/rss.xml"
   }
 }

@@ -270,14 +270,8 @@
     "message": "Marcadores",
     "description": "The title of the tag list page"
   },
-  "What I've been learning along the way.": {
-    "message": "Coisas que aprendi e pepinos que descasquei."
-  },
   "The soul that powers the brain.": {
     "message": "A alma por trás do código."
-  },
-  "Code, cloud, pipelines, security...": {
-    "message": "Código, nuvem, pipelines, segurança..."
   },
   "What": {
     "message": "O que"
@@ -285,10 +279,10 @@
   "Who": {
     "message": "Quem"
   },
-  "Where": {
-    "message": "Onde"
-  },
   "Code, Cloud & App Sec": {
     "message": "Código, Nuvem & Segurança"
+  },
+  "What I've been learning in the field.": {
+    "message": "Coisas que aprendi e pepinos que descasquei."
   }
 }

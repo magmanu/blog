@@ -132,8 +132,29 @@ const config = {
                             },
                         ],
                     },
+                    {
+                        title: 'RSS Feed',
+                        items: [
+                            {
+								label: '🇬🇧 RSS - Personal Blog',
+								href: 'https://magmanu.github.io/blog/personal/rss.xml',
+                            },
+                            {
+								label: '🇬🇧 RSS - Tech Blog',
+								href: 'https://magmanu.github.io/blog/tech/rss.xml',
+                            },
+                            {
+								label: '🇧🇷 RSS - Blog Pessoal',
+								href: 'https://magmanu.github.io/blog/personal/rss.xml',
+                            },
+                            {
+								label: '🇧🇷 RSS - Blog Tech',
+								href: 'https://magmanu.github.io/blog/personal/rss.xml',
+                            },
+                        ],
+                    },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} Manu Magalhães. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Manu Magalhães. Built with Docusaurus. Icons by Pablo Stanley`,
             },
             prism: {
                 theme: lightCodeTheme,
