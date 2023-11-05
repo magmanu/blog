@@ -10,12 +10,13 @@ const config = {
     title: 'Manu Magalhães',
     tagline: 'DevSecOps Engineer',
     favicon: 'img/logo_accent_light.png',
+    staticDirectories: ['static'],
 
     url: 'https://magmanu.github.io/',
     baseUrl: '/blog', // For GitHub pages deployment, it is often '/<projectName>/'
     organizationName: 'magmanu', // Usually your GitHub org/user name.
     projectName: 'blog', // Usually your repo name.
-    
+
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     i18n: {
@@ -58,7 +59,7 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
-            image: 'img/logo_accent_light.png',
+            image: 'social_card_bw_dark.png',
             navbar: {
                 title: 'Manu Magalhães',
                 logo: {
@@ -101,11 +102,20 @@ const config = {
                     //     title: 'Docs',
                     //     items: [
                     //       {
-                    //         label: 'Tutorial',
-                    //         to: '/docs/intro',
+                    //         label: 'Docs',
+                    //         to: '/docs/credits',
                     //       },
                     //     ],
                     //   },
+                    {
+                        title: 'More',
+                        items: [
+                            {
+                                label: 'Credits',
+                                to: 'blog/credits',
+                            },
+                        ],
+                    },
                     {
                         title: 'Social',
                         items: [
@@ -117,15 +127,6 @@ const config = {
                                 label: 'Twitter',
                                 href: 'https://twitter.com/manumagalhaes',
                             },
-                        ],
-                    },
-                    {
-                        title: 'More',
-                        items: [
-                            //   {
-                            //     label: 'Blog',
-                            //     to: '/blog',
-                            //   },
                             {
                                 label: 'GitHub',
                                 href: 'https://github.com/magmanu',
@@ -136,25 +137,25 @@ const config = {
                         title: 'RSS Feed',
                         items: [
                             {
-								label: '🇬🇧 Personal',
-								href: 'https://magmanu.github.io/blog/personal/rss.xml',
+                                label: '🇬🇧 Personal',
+                                href: 'https://magmanu.github.io/blog/personal/rss.xml',
                             },
                             {
-								label: '🇬🇧 Tech',
-								href: 'https://magmanu.github.io/blog/tech/rss.xml',
+                                label: '🇬🇧 Tech',
+                                href: 'https://magmanu.github.io/blog/tech/rss.xml',
                             },
                             {
-								label: '🇧🇷 Pessoal',
-								href: 'https://magmanu.github.io/blog/personal/rss.xml',
+                                label: '🇧🇷 Pessoal',
+                                href: 'https://magmanu.github.io/blog/personal/rss.xml',
                             },
                             {
-								label: '🇧🇷 Tech',
-								href: 'https://magmanu.github.io/blog/personal/rss.xml',
+                                label: '🇧🇷 Tech',
+                                href: 'https://magmanu.github.io/blog/personal/rss.xml',
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} Manu Magalhães. Built with Docusaurus. Icons by Pablo Stanley`,
+                copyright: `Copyright © ${new Date().getFullYear()} Manu Magalhães.`,
             },
             prism: {
                 theme: lightCodeTheme,

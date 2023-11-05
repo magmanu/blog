@@ -37,18 +37,22 @@
   },
   "link.item.label.🇬🇧 Personal": {
     "message": "🇬🇧 Personal",
-    "description": "The label of footer link with label=🇬🇧 RSS - Personal Blog linking to https://magmanu.github.io/blog/personal/rss.xml"
+    "description": "The label of footer link with label=🇬🇧 Personal linking to https://magmanu.github.io/blog/personal/rss.xml"
   },
   "link.item.label.🇬🇧 Tech": {
     "message": "🇬🇧 Tech",
-    "description": "The label of footer link with label=🇬🇧 RSS - Tech Blog linking to https://magmanu.github.io/blog/tech/rss.xml"
+    "description": "The label of footer link with label=🇬🇧 Tech linking to https://magmanu.github.io/blog/tech/rss.xml"
   },
   "link.item.label.🇧🇷 Pessoal": {
     "message": "🇧🇷 Pessoal",
-    "description": "The label of footer link with label=🇧🇷 RSS - Blog Pessoal linking to https://magmanu.github.io/blog/personal/rss.xml"
+    "description": "The label of footer link with label=🇧🇷 Pessoal linking to https://magmanu.github.io/blog/personal/rss.xml"
   },
   "link.item.label.🇧🇷 Tech": {
     "message": "🇧🇷 Tech",
-    "description": "The label of footer link with label=🇧🇷 RSS - Blog Tech linking to https://magmanu.github.io/blog/personal/rss.xml"
+    "description": "The label of footer link with label=🇧🇷 Tech linking to https://magmanu.github.io/blog/personal/rss.xml"
+  },
+  "link.item.label.Credits": {
+    "message": "Créditos",
+    "description": "The label of footer link with label=Credits linking to blog/credits"
   }
 }
