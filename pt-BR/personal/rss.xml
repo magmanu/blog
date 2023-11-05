@@ -4,19 +4,31 @@
         <title>Blog by Manu Magalhães</title>
         <link>https://magmanu.github.io/blog/pt-BR/personal</link>
         <description>Who on Earth still has blog?</description>
-        <lastBuildDate>Sun, 29 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Nov 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
         <item>
-            <title><![CDATA[Só um teste]]></title>
-            <link>https://magmanu.github.io/blog/pt-BR/personal/personal-placeholder</link>
-            <guid>https://magmanu.github.io/blog/pt-BR/personal/personal-placeholder</guid>
-            <pubDate>Sun, 29 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Não tem nada aqui ainda.]]></description>
-            <content:encoded><![CDATA[<p>Não tem nada aqui ainda.</p>]]></content:encoded>
-            <category>hey</category>
-            <category>docusaurus</category>
+            <title><![CDATA[Os Justos]]></title>
+            <link>https://magmanu.github.io/blog/pt-BR/personal/borges-los-justos</link>
+            <guid>https://magmanu.github.io/blog/pt-BR/personal/borges-los-justos</guid>
+            <pubDate>Sun, 05 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Um homem que cultiva seu jardim, como queria Voltaire.]]></description>
+            <content:encoded><![CDATA[<img loading="lazy" src="/blog/img/noun-quotation-marks-217145-close.svg" alt="quotes icon by Michel Rojas, The Noun Project" align="right" width="20%" class="img_ev3q"><p>Um homem que cultiva seu jardim, como queria Voltaire.<br>
+<!-- -->O que agradece que na terra exista música.<br>
+<!-- -->O que descobre com prazer uma etimologia.<br>
+<!-- -->Dois empregados que em um café do Sur jogam um silencioso xadrez.<br>
+<!-- -->O ceramista que premedita uma cor e uma forma.<br>
+<!-- -->O tipógrafo que compõe bem esta página, que talvez não lhe agrade.<br>
+<!-- -->Uma mulher e um homem que leem os tercetos finais de certo canto.<br>
+<!-- -->O que afaga um animal adormecido.<br>
+<!-- -->O que justifica ou quer justificar um mal que lhe fizeram.<br>
+<!-- -->O que agradece que na terra exista Stevenson.<br>
+<!-- -->O que prefere que os outros estejam certos.<br>
+<!-- -->Essas pessoas, que se desconhecem, estão salvando o mundo.</p><h5 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="borges-jorge-luis-los-justos--os-justos-tradução-de-josely-vianna-baptista-in-poesia-companhia-das-letras-2009">BORGES, Jorge Luis. Los justos / Os justos. Tradução de Josely Vianna Baptista. In: Poesia. Companhia das Letras, 2009<a href="#borges-jorge-luis-los-justos--os-justos-tradução-de-josely-vianna-baptista-in-poesia-companhia-das-letras-2009" class="hash-link" aria-label="Link direto para BORGES, Jorge Luis. Los justos / Os justos. Tradução de Josely Vianna Baptista. In: Poesia. Companhia das Letras, 2009" title="Link direto para BORGES, Jorge Luis. Los justos / Os justos. Tradução de Josely Vianna Baptista. In: Poesia. Companhia das Letras, 2009">​</a></h5><br><blockquote><p><em>What does the Lord require of you? To act justly, and to love mercy and to walk humbly with your God.</em><br>
+<!-- -->Micah 6:8</p></blockquote>]]></content:encoded>
+            <category>poesia</category>
+            <category>jorge luis borges</category>
         </item>
     </channel>
 </rss>

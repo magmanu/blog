@@ -2,23 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://magmanu.github.io/blog/pt-BR/personal</id>
     <title>Blog by Manu Magalhães</title>
-    <updated>2023-10-29T00:00:00.000Z</updated>
+    <updated>2023-11-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://magmanu.github.io/blog/pt-BR/personal"/>
     <subtitle>Who on Earth still has blog?</subtitle>
     <icon>https://magmanu.github.io/blog/pt-BR/img/logo_accent_light.png</icon>
     <entry>
-        <title type="html"><![CDATA[Só um teste]]></title>
-        <id>https://magmanu.github.io/blog/pt-BR/personal/personal-placeholder</id>
-        <link href="https://magmanu.github.io/blog/pt-BR/personal/personal-placeholder"/>
-        <updated>2023-10-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Não tem nada aqui ainda.]]></summary>
-        <content type="html"><![CDATA[<p>Não tem nada aqui ainda.</p>]]></content>
+        <title type="html"><![CDATA[Os Justos]]></title>
+        <id>https://magmanu.github.io/blog/pt-BR/personal/borges-los-justos</id>
+        <link href="https://magmanu.github.io/blog/pt-BR/personal/borges-los-justos"/>
+        <updated>2023-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Um homem que cultiva seu jardim, como queria Voltaire.]]></summary>
+        <content type="html"><![CDATA[<img loading="lazy" src="/blog/img/noun-quotation-marks-217145-close.svg" alt="quotes icon by Michel Rojas, The Noun Project" align="right" width="20%" class="img_ev3q"><p>Um homem que cultiva seu jardim, como queria Voltaire.<br>
+<!-- -->O que agradece que na terra exista música.<br>
+<!-- -->O que descobre com prazer uma etimologia.<br>
+<!-- -->Dois empregados que em um café do Sur jogam um silencioso xadrez.<br>
+<!-- -->O ceramista que premedita uma cor e uma forma.<br>
+<!-- -->O tipógrafo que compõe bem esta página, que talvez não lhe agrade.<br>
+<!-- -->Uma mulher e um homem que leem os tercetos finais de certo canto.<br>
+<!-- -->O que afaga um animal adormecido.<br>
+<!-- -->O que justifica ou quer justificar um mal que lhe fizeram.<br>
+<!-- -->O que agradece que na terra exista Stevenson.<br>
+<!-- -->O que prefere que os outros estejam certos.<br>
+<!-- -->Essas pessoas, que se desconhecem, estão salvando o mundo.</p><h5 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="borges-jorge-luis-los-justos--os-justos-tradução-de-josely-vianna-baptista-in-poesia-companhia-das-letras-2009">BORGES, Jorge Luis. Los justos / Os justos. Tradução de Josely Vianna Baptista. In: Poesia. Companhia das Letras, 2009<a href="#borges-jorge-luis-los-justos--os-justos-tradução-de-josely-vianna-baptista-in-poesia-companhia-das-letras-2009" class="hash-link" aria-label="Link direto para BORGES, Jorge Luis. Los justos / Os justos. Tradução de Josely Vianna Baptista. In: Poesia. Companhia das Letras, 2009" title="Link direto para BORGES, Jorge Luis. Los justos / Os justos. Tradução de Josely Vianna Baptista. In: Poesia. Companhia das Letras, 2009">​</a></h5><br><blockquote><p><em>What does the Lord require of you? To act justly, and to love mercy and to walk humbly with your God.</em><br>
+<!-- -->Micah 6:8</p></blockquote>]]></content>
         <author>
             <name>Manu Magalhães</name>
             <uri>https://twitter.com/manumagalhaes</uri>
         </author>
-        <category label="hey" term="hey"/>
-        <category label="docusaurus" term="docusaurus"/>
+        <category label="poesia" term="poesia"/>
+        <category label="jorge luis borges" term="jorge luis borges"/>
     </entry>
 </feed>

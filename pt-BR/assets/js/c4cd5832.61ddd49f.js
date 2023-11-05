@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9257],{6587:e=>{e.exports=JSON.parse('{"title":"Passou pela cabe\xe7a","items":[{"title":"S\xf3 um teste","permalink":"/blog/pt-BR/personal/personal-placeholder"}]}')}}]);

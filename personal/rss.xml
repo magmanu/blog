@@ -4,19 +4,31 @@
         <title>Blog by Manu Magalhães</title>
         <link>https://magmanu.github.io/blog/personal</link>
         <description>Who on Earth still has blog?</description>
-        <lastBuildDate>Sun, 29 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Nov 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Just a placeholder]]></title>
-            <link>https://magmanu.github.io/blog/personal/personal-placeholder</link>
-            <guid>https://magmanu.github.io/blog/personal/personal-placeholder</guid>
-            <pubDate>Sun, 29 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Nothing to see here yet.]]></description>
-            <content:encoded><![CDATA[<p>Nothing to see here yet.</p>]]></content:encoded>
-            <category>hey</category>
-            <category>docusaurus</category>
+            <title><![CDATA[The Just]]></title>
+            <link>https://magmanu.github.io/blog/personal/borges-los-justos</link>
+            <guid>https://magmanu.github.io/blog/personal/borges-los-justos</guid>
+            <pubDate>Sun, 05 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A man who cultivates his garden, as Voltaire wished.]]></description>
+            <content:encoded><![CDATA[<img loading="lazy" src="/blog/img/noun-quotation-marks-217145-close.svg" alt="quotes icon by Michel Rojas, The Noun Project" align="right" width="20%" class="img_ev3q"><p>A man who cultivates his garden, as Voltaire wished.<br>
+<!-- -->He who is grateful for the existence of music.<br>
+<!-- -->He who takes pleasure in tracing an etymology.<br>
+<!-- -->Two workmen playing, in a café in the South, a silent game of chess.<br>
+<!-- -->The potter, contemplating a color and a form.<br>
+<!-- -->The typographer who sets this page well, though it may not please him.<br>
+<!-- -->A woman and a man, who read the last tercets of a certain canto.<br>
+<!-- -->He who strokes a sleeping animal.<br>
+<!-- -->He who justifies, or wishes to, a wrong done him.<br>
+<!-- -->He who is grateful for the existence of a Stevenson.<br>
+<!-- -->He who prefers others to be right.<br>
+<!-- -->These people, unaware, are saving the world.  </p><h5 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="borges-jorge-luiz-los-justos--the-just-translated-by-alastair-reid-in-insomnia-six-poems-by-jorge-luis-borges-harpers-magazine-february-1999">Borges, Jorge Luiz. Los Justos / The Just. Translated by Alastair Reid In: “Insomnia”, Six Poems by Jorge Luis Borges, Harper’s Magazine, February, 1999<a href="#borges-jorge-luiz-los-justos--the-just-translated-by-alastair-reid-in-insomnia-six-poems-by-jorge-luis-borges-harpers-magazine-february-1999" class="hash-link" aria-label="Direct link to Borges, Jorge Luiz. Los Justos / The Just. Translated by Alastair Reid In: “Insomnia”, Six Poems by Jorge Luis Borges, Harper’s Magazine, February, 1999" title="Direct link to Borges, Jorge Luiz. Los Justos / The Just. Translated by Alastair Reid In: “Insomnia”, Six Poems by Jorge Luis Borges, Harper’s Magazine, February, 1999">​</a></h5><br><blockquote><p><em>What does the Lord require of you? To act justly, and to love mercy and to walk humbly with your God.</em><br>
+<!-- -->Micah 6:8</p></blockquote>]]></content:encoded>
+            <category>poetry</category>
+            <category>jorge luis borges</category>
         </item>
     </channel>
 </rss>

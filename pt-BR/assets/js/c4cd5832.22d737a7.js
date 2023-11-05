@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9257],{6587:s=>{s.exports=JSON.parse('{"title":"Passou pela cabe\xe7a","items":[{"title":"Os Justos","permalink":"/blog/pt-BR/personal/borges-los-justos"}]}')}}]);
