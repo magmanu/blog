@@ -2,19 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://magmanu.github.io/blog/blog</id>
     <title>Manu Magalhães Blog</title>
-    <updated>2023-10-29T00:00:00.000Z</updated>
+    <updated>2023-11-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://magmanu.github.io/blog/blog"/>
     <subtitle>Manu Magalhães Blog</subtitle>
     <icon>https://magmanu.github.io/blog/img/logo_accent_light.png</icon>
     <entry>
-        <title type="html"><![CDATA[A-ha!]]></title>
-        <id>https://magmanu.github.io/blog/blog/easter-egg</id>
-        <link href="https://magmanu.github.io/blog/blog/easter-egg"/>
-        <updated>2023-10-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Well done, you got me.]]></summary>
-        <content type="html"><![CDATA[<p>Well done, you got me.
-Go away now.</p>]]></content>
+        <title type="html"><![CDATA[Credits / Créditos]]></title>
+        <id>https://magmanu.github.io/blog/blog/credits</id>
+        <link href="https://magmanu.github.io/blog/blog/credits"/>
+        <updated>2023-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Images]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="images">Images<a href="#images" class="hash-link" aria-label="Direct link to Images" title="Direct link to Images">​</a></h2><ul><li>Quotation Marks by Michael Rojas from <a href="https://thenounproject.com/icon/quotation-marks-217145/" target="_blank" rel="noopener noreferrer">Noun Project</a>.</li><li>Mirodoodles by <a href="https://blush.design/artists/RyUTVuP8G4QeAAEEQgug/pablo-stanley" target="_blank" rel="noopener noreferrer">Pablo Stanley</a></li></ul><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="framework">Framework<a href="#framework" class="hash-link" aria-label="Direct link to Framework" title="Direct link to Framework">​</a></h2><ul><li><a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a></li></ul>]]></content>
         <author>
             <name>Manu Magalhães</name>
             <uri>https://github.com/magmanu</uri>
