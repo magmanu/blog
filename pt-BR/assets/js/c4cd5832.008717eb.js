@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9257],{6587:e=>{e.exports=JSON.parse('{"title":"Passou pela cabe\xe7a","items":[{"title":"Favoritos: 2023-47","permalink":"/blog/pt-BR/personal/bookmarks-2023-week-47"},{"title":"Os Justos","permalink":"/blog/pt-BR/personal/borges-los-justos"}]}')}}]);

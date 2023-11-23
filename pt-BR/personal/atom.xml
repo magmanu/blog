@@ -8,7 +8,7 @@
     <subtitle>Who on Earth still has blog?</subtitle>
     <icon>https://magmanu.github.io/blog/pt-BR/img/logo_accent_light.png</icon>
     <entry>
-        <title type="html"><![CDATA[Bookmarks: 2023-47]]></title>
+        <title type="html"><![CDATA[Favoritos: 2023-47]]></title>
         <id>https://magmanu.github.io/blog/pt-BR/personal/bookmarks-2023-week-47</id>
         <link href="https://magmanu.github.io/blog/pt-BR/personal/bookmarks-2023-week-47"/>
         <updated>2023-11-23T00:00:00.000Z</updated>
@@ -19,7 +19,7 @@
             <name>Manu Magalhães</name>
             <uri>https://twitter.com/manumagalhaes</uri>
         </author>
-        <category label="bookmarks" term="bookmarks"/>
+        <category label="favoritos" term="favoritos"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Os Justos]]></title>
