@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[533],{9288:e=>{e.exports=JSON.parse('[{"label":"bookmarks","permalink":"/blog/personal/tags/bookmarks","count":1},{"label":"poetry","permalink":"/blog/personal/tags/poetry","count":1},{"label":"jorge luis borges","permalink":"/blog/personal/tags/jorge-luis-borges","count":1}]')}}]);
