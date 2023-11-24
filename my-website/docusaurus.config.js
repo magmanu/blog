@@ -171,6 +171,7 @@ const config = {
                       line: 'show-error',
                     },
                 ],
+                additionalLanguages: ['python', 'js', 'hcl', 'yaml', 'json', 'bash', 'jq', 'csv', 'git', 'mermaid', 'makefile', 'log', 'gitignore', 'grapgql',  'url']
             },
         }),
     plugins: [
