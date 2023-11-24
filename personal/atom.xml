@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://magmanu.github.io/blog/personal</id>
     <title>Blog by Manu Magalhães</title>
-    <updated>2023-11-23T00:00:00.000Z</updated>
+    <updated>2023-11-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://magmanu.github.io/blog/personal"/>
     <subtitle>Who on Earth still has blog?</subtitle>
     <icon>https://magmanu.github.io/blog/img/logo_accent_light.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Beyond The Bend In The Road]]></title>
+        <id>https://magmanu.github.io/blog/personal/pessoa-para-alem-da-curva-da-estrada</id>
+        <link href="https://magmanu.github.io/blog/personal/pessoa-para-alem-da-curva-da-estrada"/>
+        <updated>2023-11-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Beyond the bend in the road]]></summary>
+        <content type="html"><![CDATA[<img loading="lazy" src="/blog/img/noun-quotation-marks-217145-close.svg" alt="quotes icon by Michel Rojas, The Noun Project" align="right" width="20%" class="img_ev3q"><p>Beyond the bend in the road<br>
+<!-- -->There may be a well, and there may be a castle,<br>
+<!-- -->And there may be just more road.<br>
+<!-- -->I don’t know and don’t ask.<br>
+<!-- -->As long as I’m on the road that’s before the bend<br>
+<!-- -->I look only at the road before the bend,<br>
+<!-- -->Because the road before the bend is all I can see.<br>
+<!-- -->It would do me no good to look anywhere else<br>
+<!-- -->Or at what I can’t see.<br>
+<!-- -->Let’s pay attention only to where we are.<br>
+<!-- -->There’s only enough beauty in being here and not somewhere else.<br>
+<!-- -->If there are people beyond the bend in the road,<br>
+<!-- -->Let them worry about what’s beyond the bend in the road.<br>
+<!-- -->That, for them, is the road.<br>
+<!-- -->If we’re to arrive there, when we arrive there we’ll know.<br>
+<!-- -->For now we know only that we’re not there.<br>
+<!-- -->Here there’s just the road before the bend, and before the bend<br>
+<!-- -->There’s the road without any bend.  </p><h5 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="pessoa-fernando-para-além-da-curva-da-estrada--beyond-the-bend-in-the-road-translated-by-richard-zenith-in-a-little-larger-than-the-entire-universe-selected-poems-penguin-books-2006">Pessoa, Fernando. Para Além da Curva da Estrada / Beyond The Bend In The Road. Translated by Richard Zenith. In: “A Little Larger Than the Entire Universe: Selected Poems”, Penguin Books, 2006<a href="#pessoa-fernando-para-além-da-curva-da-estrada--beyond-the-bend-in-the-road-translated-by-richard-zenith-in-a-little-larger-than-the-entire-universe-selected-poems-penguin-books-2006" class="hash-link" aria-label="Direct link to Pessoa, Fernando. Para Além da Curva da Estrada / Beyond The Bend In The Road. Translated by Richard Zenith. In: “A Little Larger Than the Entire Universe: Selected Poems”, Penguin Books, 2006" title="Direct link to Pessoa, Fernando. Para Além da Curva da Estrada / Beyond The Bend In The Road. Translated by Richard Zenith. In: “A Little Larger Than the Entire Universe: Selected Poems”, Penguin Books, 2006">​</a></h5>]]></content>
+        <author>
+            <name>Manu Magalhães</name>
+            <uri>https://twitter.com/manumagalhaes</uri>
+        </author>
+        <category label="poetry" term="poetry"/>
+        <category label="fernando pessoa" term="fernando pessoa"/>
+        <category label="alberto caeiro" term="alberto caeiro"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bookmarks: 2023-47]]></title>
         <id>https://magmanu.github.io/blog/personal/bookmarks-2023-week-47</id>

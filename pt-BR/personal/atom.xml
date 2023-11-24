@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://magmanu.github.io/blog/pt-BR/personal</id>
     <title>Blog by Manu Magalhães</title>
-    <updated>2023-11-23T00:00:00.000Z</updated>
+    <updated>2023-11-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://magmanu.github.io/blog/pt-BR/personal"/>
     <subtitle>Who on Earth still has blog?</subtitle>
     <icon>https://magmanu.github.io/blog/pt-BR/img/logo_accent_light.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Para Além da Curva da Estrada]]></title>
+        <id>https://magmanu.github.io/blog/pt-BR/personal/pessoa-para-alem-da-curva-da-estrada</id>
+        <link href="https://magmanu.github.io/blog/pt-BR/personal/pessoa-para-alem-da-curva-da-estrada"/>
+        <updated>2023-11-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Para além da curva da estrada]]></summary>
+        <content type="html"><![CDATA[<img loading="lazy" src="/blog/img/noun-quotation-marks-217145-close.svg" alt="quotes icon by Michel Rojas, The Noun Project" align="right" width="20%" class="img_ev3q"><p>Para além da curva da estrada<br>
+<!-- -->Talvez haja um poço, e talvez um castelo,<br>
+<!-- -->E talvez apenas a continuação da estrada.<br>
+<!-- -->Não sei nem pergunto.<br>
+<!-- -->Enquanto vou na estrada antes da curva<br>
+<!-- -->Só olho para a estrada antes da curva,<br>
+<!-- -->Porque não posso ver senão a estrada antes da curva.<br>
+<!-- -->De nada me serviria estar olhando para outro lado<br>
+<!-- -->E para aquilo que não vejo.<br>
+<!-- -->Importemo-nos apenas com o lugar onde estamos.<br>
+<!-- -->Há beleza bastante em estar aqui e não noutra parte qualquer.<br>
+<!-- -->Se há alguém para além da curva da estrada,<br>
+<!-- -->Esses que se preocupem com o que há para além da curva da estrada.<br>
+<!-- -->Essa é que é a estrada para eles.<br>
+<!-- -->Se nós tivermos que chegar lá, quando lá chegarmos saberemos.<br>
+<!-- -->Por ora só sabemos que lá não estamos.<br>
+<!-- -->Aqui há só a estrada antes da curva, e antes da curva<br>
+<!-- -->Há a estrada sem curva nenhuma.  </p><h5 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="pessoa-fernando-poemas-inconjuntos-poemas-completos-de-alberto-caeiro-presença-1994">Pessoa, Fernando. “Poemas Inconjuntos”. Poemas Completos de Alberto Caeiro. Presença, 1994<a href="#pessoa-fernando-poemas-inconjuntos-poemas-completos-de-alberto-caeiro-presença-1994" class="hash-link" aria-label="Link direto para Pessoa, Fernando. “Poemas Inconjuntos”. Poemas Completos de Alberto Caeiro. Presença, 1994" title="Link direto para Pessoa, Fernando. “Poemas Inconjuntos”. Poemas Completos de Alberto Caeiro. Presença, 1994">​</a></h5>]]></content>
+        <author>
+            <name>Manu Magalhães</name>
+            <uri>https://twitter.com/manumagalhaes</uri>
+        </author>
+        <category label="poesia" term="poesia"/>
+        <category label="fernando pessoa" term="fernando pessoa"/>
+        <category label="alberto caeiro" term="alberto caeiro"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Favoritos: 2023-47]]></title>
         <id>https://magmanu.github.io/blog/pt-BR/personal/bookmarks-2023-week-47</id>

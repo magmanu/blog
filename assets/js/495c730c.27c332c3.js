@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4306],{9368:e=>{e.exports=JSON.parse('{"label":"fernando pessoa","permalink":"/blog/personal/tags/fernando-pessoa","allTagsPath":"/blog/personal/tags","count":1}')}}]);

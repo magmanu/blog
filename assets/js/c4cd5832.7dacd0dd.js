@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9257],{6587:e=>{e.exports=JSON.parse('{"title":"Recent Thoughts","items":[{"title":"Bookmarks: 2023-47","permalink":"/blog/personal/bookmarks-2023-week-47"},{"title":"The Just","permalink":"/blog/personal/borges-los-justos"}]}')}}]);
