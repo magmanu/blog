@@ -172,7 +172,7 @@ const config = {
                       block: { start: 'error-start', end: 'error-end' },
                     },
                 ],
-                additionalLanguages: ['python', 'hcl', 'yaml', 'json', 'bash', 'jq', 'csv', 'git', 'mermaid', 'makefile', 'log', 'graphql',  'url']
+                additionalLanguages: ['python', 'hcl', 'yaml', 'json', 'bash', 'jq', 'csv', 'git', 'mermaid', 'makefile', 'log', 'graphql']
             },
         }),
     plugins: [
