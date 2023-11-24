@@ -169,8 +169,10 @@ const config = {
                     {
                       className: 'code-block-error-line',
                       line: 'show-error',
+                      block: { start: 'error-start', end: 'error-end' },
                     },
                 ],
+                additionalLanguages: ['python', 'js', 'hcl', 'yaml', 'json', 'bash', 'jq', 'csv', 'git', 'mermaid', 'makefile', 'log', 'gitignore', 'grapgql',  'url']
             },
         }),
     plugins: [
