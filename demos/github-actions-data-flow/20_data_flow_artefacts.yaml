@@ -1,0 +1,47 @@
+name: '[ARTEFACTS] Data Flow'
+
+on: [workflow_dispatch]
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Upload log files
+        uses: actions/upload-artifact@v4
+        with:
+          name: all-logs      # name for the soon-to-be-zipped artefact
+          path: |             # relative paths are rooted against $GITHUB_WORKSPACE
+            **/log*.txt
+          retention-days: 1
+          if-no-files-found: error # force step to fail if the content for the artefact is not found
+
+  download:
+    runs-on: ubuntu-latest
+    needs: upload
+    steps:
+      - name: Download log files
+        id: download-artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: all-logs          # note it uses the name defined in the upload step
+          # path: artifacts_dir   # download all artefacts to this directory
+          # merge-multiple: true
+        
+      - name: Pass artifact path to python
+        shell: python
+        run: |
+          import os
+          from glob import glob
+        
+          artifact_path = os.environ.get("ARTIFACT_PATH", "")
+        
+          glob_list = glob(artifact_path + "/*.txt")
+        
+          for filename in glob_list:
+              with open(filename, "r", encoding="UTF-8") as f:
+                  content = f.read()
+                  print(content)
+        env:
+          ARTIFACT_PATH: ${{ steps.download-artifacts.outputs.download-path }}

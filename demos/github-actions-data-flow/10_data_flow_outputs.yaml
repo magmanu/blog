@@ -1,0 +1,42 @@
+name: '[OUTPUTS] Data Flow'
+
+on: [workflow_dispatch]
+
+jobs:
+  setting-outputs:
+    runs-on: ubuntu-latest
+    outputs:  # Required: name the output in the job level so it's available to other jobs
+      person_name: ${{ steps.use-hardcoded-value.outputs.NAME }}
+      location: ${{ steps.use-dynamic-value.outputs.LOCATION }}
+    steps:
+      - id: use-hardcoded-value
+        run: echo "NAME=Marcela" >> "$GITHUB_OUTPUT"
+      
+      - id: use-dynamic-value
+        # note the use of jq -c to get the value as a single line
+        run: |
+          location=$(curl -H "Accept: application/json" https://randomuser.me/api/ | jq -c .results[].location)
+          echo "LOCATION=$location" > "$GITHUB_OUTPUT"
+      
+      - name: 🛡️ Safely consume output in the same job
+        run: |
+          echo "$PERSON, you're in $GEODATA, so we've updated your timezone to GMT$OFFSET."
+        env:
+          PERSON: ${{ steps.use-hardcoded-value.outputs.NAME }}
+          # use fromJSON() when filtering the output value at the env level
+          # See more about object filtering in 
+          # https://docs.github.com/en/actions/learn-github-actions/expressions#object-filters
+          GEODATA: ${{ fromJSON(steps.use-dynamic-value.outputs.LOCATION).country }}
+          OFFSET: ${{ fromJSON(steps.use-dynamic-value.outputs.LOCATION).timezone.offset }}
+
+  retrieving-outputs:
+    runs-on: ubuntu-latest
+    needs: setting-outputs
+    steps:
+      - name: 🛡️ Safely consume output in another job
+        run: |
+          COUNTRY=$(echo $GEODATA | jq -r . | jq .country)
+          echo "Hello $NAME, welcome to $COUNTRY!"
+        env:
+          NAME: ${{needs.setting-outputs.outputs.person_name}}
+          GEODATA: ${{ needs.setting-outputs.outputs.location }}

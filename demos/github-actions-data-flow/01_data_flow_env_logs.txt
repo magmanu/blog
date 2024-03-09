@@ -1,0 +1,89 @@
+﻿2024-03-01T23:58:55.4493999Z Current runner version: '2.313.0'
+2024-03-01T23:58:55.4524794Z ##[group]Operating System
+2024-03-01T23:58:55.4525609Z Ubuntu
+2024-03-01T23:58:55.4526215Z 22.04.4
+2024-03-01T23:58:55.4526624Z LTS
+2024-03-01T23:58:55.4527073Z ##[endgroup]
+2024-03-01T23:58:55.4527647Z ##[group]Runner Image
+2024-03-01T23:58:55.4528191Z Image: ubuntu-22.04
+2024-03-01T23:58:55.4528724Z Version: 20240225.1.0
+2024-03-01T23:58:55.4530097Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20240225.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-03-01T23:58:55.4531934Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20240225.1
+2024-03-01T23:58:55.4533060Z ##[endgroup]
+2024-03-01T23:58:55.4533679Z ##[group]Runner Image Provisioner
+2024-03-01T23:58:55.4534290Z 2.0.347.1
+2024-03-01T23:58:55.4534745Z ##[endgroup]
+2024-03-01T23:58:55.4536081Z ##[group]GITHUB_TOKEN Permissions
+2024-03-01T23:58:55.4538097Z Contents: read
+2024-03-01T23:58:55.4538774Z Metadata: read
+2024-03-01T23:58:55.4539493Z Packages: read
+2024-03-01T23:58:55.4540174Z ##[endgroup]
+2024-03-01T23:58:55.4544132Z Secret source: Actions
+2024-03-01T23:58:55.4544881Z Prepare workflow directory
+2024-03-01T23:58:55.5302084Z Prepare all required actions
+2024-03-01T23:58:55.5591519Z Complete job name: example
+2024-03-01T23:58:55.6826900Z ##[group]Run random_wiki_article_1=$(curl -L -X GET "https://en.wikipedia.org/api/rest_v1/page/random/summary" | jq .title)
+2024-03-01T23:58:55.6829099Z  [36;1mrandom_wiki_article_1=$(curl -L -X GET "https://en.wikipedia.org/api/rest_v1/page/random/summary" | jq .title) [0m
+2024-03-01T23:58:55.6830556Z  [36;1mecho "$random_wiki_article_1" [0m
+2024-03-01T23:58:55.6831480Z  [36;1mecho "ARTICLE_1=$random_wiki_article_1" >> "$GITHUB_ENV" [0m
+2024-03-01T23:58:55.6832383Z  [36;1m [0m
+2024-03-01T23:58:55.6833601Z  [36;1mrandom_wiki_article_2=$(curl -L -X GET "https://en.wikipedia.org/api/rest_v1/page/random/summary" | jq .title) [0m
+2024-03-01T23:58:55.6835175Z  [36;1mecho "ARTICLE_2=$random_wiki_article_2" | tee -a "$GITHUB_ENV" [0m
+2024-03-01T23:58:55.6836812Z  [36;1m# 🐉 although `tee` is practical to debug the output value, do not use it if the input data is senstive! [0m
+2024-03-01T23:58:55.6838721Z  [36;1m# and don't forget the flag -a or it will overwrite all variables in GITHUB_ENV [0m
+2024-03-01T23:58:55.7348407Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2024-03-01T23:58:55.7349364Z ##[endgroup]
+2024-03-01T23:58:55.8047806Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2024-03-01T23:58:55.8048912Z                                  Dload  Upload   Total   Spent    Left  Speed
+2024-03-01T23:58:55.8049498Z 
+2024-03-01T23:58:55.8661125Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2024-03-01T23:58:56.1000532Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2024-03-01T23:58:56.1001628Z 100    90  100    90    0     0    332      0 --:--:-- --:--:-- --:--:--   332
+2024-03-01T23:58:56.1002246Z 
+2024-03-01T23:58:56.1002747Z 100  1753  100  1753    0     0   5945      0 --:--:-- --:--:-- --:--:--  5945
+2024-03-01T23:58:56.1003539Z "Cornell Chimes"
+2024-03-01T23:58:56.1141632Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2024-03-01T23:58:56.1142802Z                                  Dload  Upload   Total   Spent    Left  Speed
+2024-03-01T23:58:56.1143388Z 
+2024-03-01T23:58:56.4631707Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2024-03-01T23:58:56.4632608Z ARTICLE_2="Omar Al Somah"
+2024-03-01T23:58:56.4763555Z 100    89  100    89    0     0    285      0 --:--:-- --:--:-- --:--:--   286
+2024-03-01T23:58:56.4782320Z 
+2024-03-01T23:58:56.4783639Z 100  2116    0  2116    0     0   6032      0 --:--:-- --:--:-- --:--:--  6032
+2024-03-01T23:58:56.4999955Z ##[group]Run from os import environ as env
+2024-03-01T23:58:56.5000741Z  [36;1mfrom os import environ as env [0m
+2024-03-01T23:58:56.5001606Z  [36;1mwith open(env.get('GITHUB_ENV', None), 'a') as ghenv: [0m
+2024-03-01T23:58:56.5002717Z  [36;1m  ghenv.write("SUBJECT=Sun\n") [0m
+2024-03-01T23:58:56.5003448Z  [36;1m  print("STATE=radiant", file=ghenv) [0m
+2024-03-01T23:58:56.5004199Z  [36;1m  print("TIME=today", file=ghenv) [0m
+2024-03-01T23:58:56.5296240Z shell: /usr/bin/python {0}
+2024-03-01T23:58:56.5296807Z env:
+2024-03-01T23:58:56.5297212Z   ARTICLE_1: "Cornell Chimes"
+2024-03-01T23:58:56.5297771Z   ARTICLE_2: "Omar Al Somah"
+2024-03-01T23:58:56.5298314Z ##[endgroup]
+2024-03-01T23:58:56.5691460Z ##[group]Run echo "$WHO read about $WHAT $WHEN."
+2024-03-01T23:58:56.5692351Z  [36;1mecho "$WHO read about $WHAT $WHEN." [0m
+2024-03-01T23:58:56.5717528Z shell: /usr/bin/bash -e {0}
+2024-03-01T23:58:56.5718067Z env:
+2024-03-01T23:58:56.5718449Z   ARTICLE_1: "Cornell Chimes"
+2024-03-01T23:58:56.5719016Z   ARTICLE_2: "Omar Al Somah"
+2024-03-01T23:58:56.5719542Z   SUBJECT: Sun
+2024-03-01T23:58:56.5719966Z   STATE: radiant
+2024-03-01T23:58:56.5720392Z   TIME: today
+2024-03-01T23:58:56.5720777Z   WHO: Sun
+2024-03-01T23:58:56.5721202Z   WHAT: "Cornell Chimes"
+2024-03-01T23:58:56.5721689Z   WHEN: today
+2024-03-01T23:58:56.5722078Z ##[endgroup]
+2024-03-01T23:58:56.5793697Z Sun read about "Cornell Chimes" today.
+2024-03-01T23:58:56.5887291Z ##[group]Run echo "Sun is radiant today."
+2024-03-01T23:58:56.5888050Z [36;1mecho "Sun is radiant today."[0m
+2024-03-01T23:58:56.5911867Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2024-03-01T23:58:56.5912649Z env:
+2024-03-01T23:58:56.5913041Z   ARTICLE_1: "Cornell Chimes"
+2024-03-01T23:58:56.5913599Z   ARTICLE_2: "Omar Al Somah"
+2024-03-01T23:58:56.5914302Z   SUBJECT: Sun
+2024-03-01T23:58:56.5914711Z   STATE: radiant
+2024-03-01T23:58:56.5915133Z   TIME: today
+2024-03-01T23:58:56.5915533Z ##[endgroup]
+2024-03-01T23:58:56.5968081Z Sun is radiant today.
+2024-03-01T23:58:56.6146294Z Cleaning up orphan processes

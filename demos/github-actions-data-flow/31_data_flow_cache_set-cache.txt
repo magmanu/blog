@@ -1,0 +1,198 @@
+2024-03-02T01:48:19.2820826Z Current runner version: '2.313.0'
+2024-03-02T01:48:19.2852564Z ##[group]Operating System
+2024-03-02T01:48:19.2853592Z Ubuntu
+2024-03-02T01:48:19.2854018Z 22.04.4
+2024-03-02T01:48:19.2854497Z LTS
+2024-03-02T01:48:19.2855029Z ##[endgroup]
+2024-03-02T01:48:19.2855505Z ##[group]Runner Image
+2024-03-02T01:48:19.2856111Z Image: ubuntu-22.04
+2024-03-02T01:48:19.2856734Z Version: 20240225.1.0
+2024-03-02T01:48:19.2858080Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20240225.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-03-02T01:48:19.2860115Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20240225.1
+2024-03-02T01:48:19.2861387Z ##[endgroup]
+2024-03-02T01:48:19.2861933Z ##[group]Runner Image Provisioner
+2024-03-02T01:48:19.2862599Z 2.0.347.1
+2024-03-02T01:48:19.2863163Z ##[endgroup]
+2024-03-02T01:48:19.2864528Z ##[group]GITHUB_TOKEN Permissions
+2024-03-02T01:48:19.2866750Z Contents: read
+2024-03-02T01:48:19.2867287Z Metadata: read
+2024-03-02T01:48:19.2868131Z Packages: read
+2024-03-02T01:48:19.2868750Z ##[endgroup]
+2024-03-02T01:48:19.2872657Z Secret source: Actions
+2024-03-02T01:48:19.2873636Z Prepare workflow directory
+2024-03-02T01:48:19.3645981Z Prepare all required actions
+2024-03-02T01:48:19.3842065Z Getting action download info
+2024-03-02T01:48:19.5888759Z Download action repository 'actions/checkout@v4' (SHA:b4ffde65f46336ab88eb53be808477a3936bae11)
+2024-03-02T01:48:19.7294293Z Download action repository 'actions/setup-python@v5' (SHA:0a5c61591373683505ea898e09a3ea4f39ef2b9c)
+2024-03-02T01:48:19.8445453Z Download action repository 'actions/cache@v3' (SHA:e12d46a63a90f2fae62d114769bbf2a179198b5c)
+2024-03-02T01:48:20.0954944Z Complete job name: set-cache
+2024-03-02T01:48:20.2187113Z ##[group]Run actions/checkout@v4
+2024-03-02T01:48:20.2187795Z with:
+2024-03-02T01:48:20.2188263Z   repository: magmanu/repo_name
+2024-03-02T01:48:20.2189278Z   token: ***
+2024-03-02T01:48:20.2190110Z   ssh-strict: true
+2024-03-02T01:48:20.2191189Z   persist-credentials: true
+2024-03-02T01:48:20.2192777Z   clean: true
+2024-03-02T01:48:20.2193260Z   sparse-checkout-cone-mode: true
+2024-03-02T01:48:20.2193882Z   fetch-depth: 1
+2024-03-02T01:48:20.2194338Z   fetch-tags: false
+2024-03-02T01:48:20.2194817Z   show-progress: true
+2024-03-02T01:48:20.2195315Z   lfs: false
+2024-03-02T01:48:20.2195749Z   submodules: false
+2024-03-02T01:48:20.2196237Z   set-safe-directory: true
+2024-03-02T01:48:20.2196768Z ##[endgroup]
+2024-03-02T01:48:20.5092852Z Syncing repository: magmanu/repo_name
+2024-03-02T01:48:20.5095364Z ##[group]Getting Git version info
+2024-03-02T01:48:20.5096711Z Working directory is '/home/runner/work/repo_name/repo_name'
+2024-03-02T01:48:20.5098552Z [command]/usr/bin/git version
+2024-03-02T01:48:20.5186077Z git version 2.43.2
+2024-03-02T01:48:20.5188400Z ##[endgroup]
+2024-03-02T01:48:20.5203713Z Temporarily overriding HOME='/home/runner/work/_temp/75ff6524-65ad-4e25-914d-bf7158f43bb8' before making global git config changes
+2024-03-02T01:48:20.5205764Z Adding repository directory to the temporary git global config as a safe directory
+2024-03-02T01:48:20.5207683Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/repo_name/repo_name
+2024-03-02T01:48:20.5210345Z Deleting the contents of '/home/runner/work/repo_name/repo_name'
+2024-03-02T01:48:20.5228730Z ##[group]Initializing the repository
+2024-03-02T01:48:20.5229876Z [command]/usr/bin/git init /home/runner/work/repo_name/repo_name
+2024-03-02T01:48:20.5317831Z hint: Using 'master' as the name for the initial branch. This default branch name
+2024-03-02T01:48:20.5320989Z hint: is subject to change. To configure the initial branch name to use in all
+2024-03-02T01:48:20.5322503Z hint: of your new repositories, which will suppress this warning, call:
+2024-03-02T01:48:20.5323530Z hint: 
+2024-03-02T01:48:20.5324297Z hint: 	git config --global init.defaultBranch <name>
+2024-03-02T01:48:20.5325167Z hint: 
+2024-03-02T01:48:20.5326418Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2024-03-02T01:48:20.5327898Z hint: 'development'. The just-created branch can be renamed via this command:
+2024-03-02T01:48:20.5328984Z hint: 
+2024-03-02T01:48:20.5329545Z hint: 	git branch -m <name>
+2024-03-02T01:48:20.5353546Z Initialized empty Git repository in /home/runner/work/repo_name/repo_name/.git/
+2024-03-02T01:48:20.5364090Z [command]/usr/bin/git remote add origin https://github.com/magmanu/repo_name
+2024-03-02T01:48:20.5404435Z ##[endgroup]
+2024-03-02T01:48:20.5405469Z ##[group]Disabling automatic garbage collection
+2024-03-02T01:48:20.5407922Z [command]/usr/bin/git config --local gc.auto 0
+2024-03-02T01:48:20.5438839Z ##[endgroup]
+2024-03-02T01:48:20.5440442Z ##[group]Setting up auth
+2024-03-02T01:48:20.5444883Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-03-02T01:48:20.5475090Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-03-02T01:48:20.5915414Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-03-02T01:48:20.5947517Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-03-02T01:48:20.6202743Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2024-03-02T01:48:20.6250860Z ##[endgroup]
+2024-03-02T01:48:20.6252216Z ##[group]Fetching the repository
+2024-03-02T01:48:20.6262104Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +7631bf9ad2859ab48d86c20b5230700cdb7c47d6:refs/remotes/origin/main
+2024-03-02T01:48:21.1707942Z From https://github.com/magmanu/repo_name
+2024-03-02T01:48:21.1709094Z  * [new ref]         7631bf9ad2859ab48d86c20b5230700cdb7c47d6 -> origin/main
+2024-03-02T01:48:21.1710857Z ##[endgroup]
+2024-03-02T01:48:21.1711475Z ##[group]Determining the checkout info
+2024-03-02T01:48:21.1712186Z ##[endgroup]
+2024-03-02T01:48:21.1712799Z ##[group]Checking out the ref
+2024-03-02T01:48:21.1713639Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2024-03-02T01:48:21.1741411Z Switched to a new branch 'main'
+2024-03-02T01:48:21.1744985Z branch 'main' set up to track 'origin/main'.
+2024-03-02T01:48:21.1748256Z ##[endgroup]
+2024-03-02T01:48:21.1785866Z [command]/usr/bin/git log -1 --format='%H'
+2024-03-02T01:48:21.1816101Z '7631bf9ad2859ab48d86c20b5230700cdb7c47d6'
+2024-03-02T01:48:21.2444635Z ##[group]Run actions/setup-python@v5
+2024-03-02T01:48:21.2445152Z with:
+2024-03-02T01:48:21.2445458Z   python-version: 3.12
+2024-03-02T01:48:21.2445810Z   cache: pip
+2024-03-02T01:48:21.2446210Z   cache-dependency-path: **/requirements.txt
+
+2024-03-02T01:48:21.2446761Z   check-latest: false
+2024-03-02T01:48:21.2447468Z   token: ***
+2024-03-02T01:48:21.2448143Z   update-environment: true
+2024-03-02T01:48:21.2448635Z   allow-prereleases: false
+2024-03-02T01:48:21.2449151Z ##[endgroup]
+2024-03-02T01:48:21.4502847Z ##[group]Installed versions
+2024-03-02T01:48:21.4566186Z Successfully set up CPython (3.12.2)
+2024-03-02T01:48:21.4567574Z ##[endgroup]
+2024-03-02T01:48:21.5548186Z [command]/opt/hostedtoolcache/Python/3.12.2/x64/bin/pip cache dir
+2024-03-02T01:48:22.0129493Z /home/runner/.cache/pip
+2024-03-02T01:48:22.3669170Z pip cache is not found
+2024-03-02T01:48:22.3918037Z ##[group]Run echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
+2024-03-02T01:48:22.3921874Z [36;1mecho "dir=$(pip cache dir)" >> $GITHUB_OUTPUT[0m
+2024-03-02T01:48:22.3968635Z shell: /usr/bin/bash -e {0}
+2024-03-02T01:48:22.3969215Z env:
+2024-03-02T01:48:22.3969866Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:22.3970735Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.2/x64/lib/pkgconfig
+2024-03-02T01:48:22.3971948Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:22.3972831Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:22.3973661Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:22.3974446Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.2/x64/lib
+2024-03-02T01:48:22.3975205Z ##[endgroup]
+2024-03-02T01:48:22.9960171Z ##[group]Run actions/cache@v3
+2024-03-02T01:48:22.9960626Z with:
+2024-03-02T01:48:22.9960961Z   path: /home/runner/.cache/pip
+2024-03-02T01:48:22.9961722Z   key: Linux-pip-83bb3f058531857c43e9eb0c51d1c2ee62e96f9c70853b143c58d487b8b80953
+2024-03-02T01:48:22.9962543Z   enableCrossOsArchive: false
+2024-03-02T01:48:22.9962983Z   fail-on-cache-miss: false
+2024-03-02T01:48:22.9963374Z   lookup-only: false
+2024-03-02T01:48:22.9963741Z env:
+2024-03-02T01:48:22.9964161Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:22.9964945Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.2/x64/lib/pkgconfig
+2024-03-02T01:48:22.9965749Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:22.9966443Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:22.9967134Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:22.9967826Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.2/x64/lib
+2024-03-02T01:48:22.9968472Z ##[endgroup]
+2024-03-02T01:48:23.4417524Z Cache not found for input keys: Linux-pip-83bb3f058531857c43e9eb0c51d1c2ee62e96f9c70853b143c58d487b8b80953
+2024-03-02T01:48:23.4534923Z ##[group]Run pip install -r requirements.txt
+2024-03-02T01:48:23.4535564Z [36;1mpip install -r requirements.txt[0m
+2024-03-02T01:48:23.4561382Z shell: /usr/bin/bash -e {0}
+2024-03-02T01:48:23.4561812Z env:
+2024-03-02T01:48:23.4562239Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:23.4563043Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.2/x64/lib/pkgconfig
+2024-03-02T01:48:23.4563867Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:23.4564564Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:23.4565250Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.2/x64
+2024-03-02T01:48:23.4565963Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.2/x64/lib
+2024-03-02T01:48:23.4566548Z ##[endgroup]
+2024-03-02T01:48:24.8825025Z Collecting boto3==1.33.0 (from -r requirements.txt (line 1))
+2024-03-02T01:48:24.9734225Z   Downloading boto3-1.33.0-py3-none-any.whl.metadata (6.7 kB)
+2024-03-02T01:48:25.7519959Z Collecting botocore<1.34.0,>=1.33.0 (from boto3==1.33.0->-r requirements.txt (line 1))
+2024-03-02T01:48:25.7623328Z   Downloading botocore-1.33.13-py3-none-any.whl.metadata (6.1 kB)
+2024-03-02T01:48:25.7962934Z Collecting jmespath<2.0.0,>=0.7.1 (from boto3==1.33.0->-r requirements.txt (line 1))
+2024-03-02T01:48:25.8071698Z   Downloading jmespath-1.0.1-py3-none-any.whl.metadata (7.6 kB)
+2024-03-02T01:48:25.8503325Z Collecting s3transfer<0.9.0,>=0.8.0 (from boto3==1.33.0->-r requirements.txt (line 1))
+2024-03-02T01:48:25.8612726Z   Downloading s3transfer-0.8.2-py3-none-any.whl.metadata (1.8 kB)
+2024-03-02T01:48:25.9087690Z Collecting python-dateutil<3.0.0,>=2.1 (from botocore<1.34.0,>=1.33.0->boto3==1.33.0->-r requirements.txt (line 1))
+2024-03-02T01:48:25.9193601Z   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+2024-03-02T01:48:25.9936816Z Collecting urllib3<2.1,>=1.25.4 (from botocore<1.34.0,>=1.33.0->boto3==1.33.0->-r requirements.txt (line 1))
+2024-03-02T01:48:26.0044577Z   Downloading urllib3-2.0.7-py3-none-any.whl.metadata (6.6 kB)
+2024-03-02T01:48:26.3169580Z Collecting six>=1.5 (from python-dateutil<3.0.0,>=2.1->botocore<1.34.0,>=1.33.0->boto3==1.33.0->-r requirements.txt (line 1))
+2024-03-02T01:48:26.3278513Z   Downloading six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+2024-03-02T01:48:26.3607048Z Downloading boto3-1.33.0-py3-none-any.whl (139 kB)
+2024-03-02T01:48:26.3855639Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.2/139.2 kB 6.1 MB/s eta 0:00:00
+2024-03-02T01:48:26.3987049Z Downloading botocore-1.33.13-py3-none-any.whl (11.8 MB)
+2024-03-02T01:48:26.5207672Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.8/11.8 MB 110.0 MB/s eta 0:00:00
+2024-03-02T01:48:26.5320748Z Downloading jmespath-1.0.1-py3-none-any.whl (20 kB)
+2024-03-02T01:48:26.5484083Z Downloading s3transfer-0.8.2-py3-none-any.whl (82 kB)
+2024-03-02T01:48:26.5545330Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.0/82.0 kB 19.6 MB/s eta 0:00:00
+2024-03-02T01:48:26.5659371Z Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+2024-03-02T01:48:26.5732385Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 47.8 MB/s eta 0:00:00
+2024-03-02T01:48:26.5844426Z Downloading urllib3-2.0.7-py3-none-any.whl (124 kB)
+2024-03-02T01:48:26.5903885Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.2/124.2 kB 32.0 MB/s eta 0:00:00
+2024-03-02T01:48:26.6021148Z Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+2024-03-02T01:48:26.7096354Z Installing collected packages: urllib3, six, jmespath, python-dateutil, botocore, s3transfer, boto3
+2024-03-02T01:48:27.6530148Z Successfully installed boto3-1.33.0 botocore-1.33.13 jmespath-1.0.1 python-dateutil-2.9.0.post0 s3transfer-0.8.2 six-1.16.0 urllib3-2.0.7
+2024-03-02T01:48:28.1187174Z Post job cleanup.
+2024-03-02T01:48:28.2835631Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/repo_name/repo_name --files-from manifest.txt --use-compress-program zstdmt
+2024-03-02T01:48:29.8302113Z Cache Size: ~12 MB (12907973 B)
+2024-03-02T01:48:30.1261523Z Cache saved successfully
+2024-03-02T01:48:30.1293164Z Cache saved with key: Linux-pip-83bb3f058531857c43e9eb0c51d1c2ee62e96f9c70853b143c58d487b8b80953
+2024-03-02T01:48:30.1421045Z Post job cleanup.
+2024-03-02T01:48:30.3694580Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/repo_name/repo_name --files-from manifest.txt --use-compress-program zstdmt
+2024-03-02T01:48:31.7223942Z Cache Size: ~12 MB (12907818 B)
+2024-03-02T01:48:32.0254325Z Cache saved successfully
+2024-03-02T01:48:32.0286520Z Cache saved with the key: setup-python-Linux-22.04-Ubuntu-python-3.12.2-pip-83bb3f058531857c43e9eb0c51d1c2ee62e96f9c70853b143c58d487b8b80953
+2024-03-02T01:48:32.0485230Z Post job cleanup.
+2024-03-02T01:48:32.1423797Z [command]/usr/bin/git version
+2024-03-02T01:48:32.1478336Z git version 2.43.2
+2024-03-02T01:48:32.1534189Z Temporarily overriding HOME='/home/runner/work/_temp/445793bb-4e57-4cb8-83be-b91676295cca' before making global git config changes
+2024-03-02T01:48:32.1536795Z Adding repository directory to the temporary git global config as a safe directory
+2024-03-02T01:48:32.1544459Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/repo_name/repo_name
+2024-03-02T01:48:32.1593992Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-03-02T01:48:32.1634131Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-03-02T01:48:32.1902558Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-03-02T01:48:32.1928409Z http.https://github.com/.extraheader
+2024-03-02T01:48:32.1941944Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2024-03-02T01:48:32.1973169Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-03-02T01:48:32.2576482Z Cleaning up orphan processes

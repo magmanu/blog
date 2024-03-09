@@ -1,0 +1,125 @@
+2024-03-02T00:58:21.4690041Z Current runner version: '2.313.0'
+2024-03-02T00:58:21.4721924Z ##[group]Operating System
+2024-03-02T00:58:21.4722858Z Ubuntu
+2024-03-02T00:58:21.4723313Z 22.04.4
+2024-03-02T00:58:21.4723790Z LTS
+2024-03-02T00:58:21.4724265Z ##[endgroup]
+2024-03-02T00:58:21.4724762Z ##[group]Runner Image
+2024-03-02T00:58:21.4725348Z Image: ubuntu-22.04
+2024-03-02T00:58:21.4725904Z Version: 20240225.1.0
+2024-03-02T00:58:21.4727194Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20240225.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-03-02T00:58:21.4729060Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20240225.1
+2024-03-02T00:58:21.4730191Z ##[endgroup]
+2024-03-02T00:58:21.4730737Z ##[group]Runner Image Provisioner
+2024-03-02T00:58:21.4731363Z 2.0.347.1
+2024-03-02T00:58:21.4731831Z ##[endgroup]
+2024-03-02T00:58:21.4733107Z ##[group]GITHUB_TOKEN Permissions
+2024-03-02T00:58:21.4735096Z Contents: read
+2024-03-02T00:58:21.4735774Z Metadata: read
+2024-03-02T00:58:21.4736462Z Packages: read
+2024-03-02T00:58:21.4737203Z ##[endgroup]
+2024-03-02T00:58:21.4741072Z Secret source: Actions
+2024-03-02T00:58:21.4741928Z Prepare workflow directory
+2024-03-02T00:58:21.5505319Z Prepare all required actions
+2024-03-02T00:58:21.5698500Z Getting action download info
+2024-03-02T00:58:21.7196511Z Download action repository 'actions/checkout@v4' (SHA:b4ffde65f46336ab88eb53be808477a3936bae11)
+2024-03-02T00:58:21.8680651Z Download action repository 'actions/upload-artifact@v4' (SHA:5d5d22a31266ced268874388b861e4b58bb5c2f3)
+2024-03-02T00:58:22.2069445Z Complete job name: upload
+2024-03-02T00:58:22.3082296Z ##[group]Run actions/checkout@v4
+2024-03-02T00:58:22.3082902Z with:
+2024-03-02T00:58:22.3083328Z   repository: magmanu/repo_name
+2024-03-02T00:58:22.3084210Z   token: ***
+2024-03-02T00:58:22.3084611Z   ssh-strict: true
+2024-03-02T00:58:22.3085044Z   persist-credentials: true
+2024-03-02T00:58:22.3085536Z   clean: true
+2024-03-02T00:58:22.3085973Z   sparse-checkout-cone-mode: true
+2024-03-02T00:58:22.3086523Z   fetch-depth: 1
+2024-03-02T00:58:22.3086926Z   fetch-tags: false
+2024-03-02T00:58:22.3087355Z   show-progress: true
+2024-03-02T00:58:22.3087775Z   lfs: false
+2024-03-02T00:58:22.3088153Z   submodules: false
+2024-03-02T00:58:22.3088595Z   set-safe-directory: true
+2024-03-02T00:58:22.3089052Z ##[endgroup]
+2024-03-02T00:58:22.6324407Z Syncing repository: magmanu/repo_name
+2024-03-02T00:58:22.6326782Z ##[group]Getting Git version info
+2024-03-02T00:58:22.6329800Z Working directory is '/home/runner/work/repo_name/repo_name'
+2024-03-02T00:58:22.6331258Z [command]/usr/bin/git version
+2024-03-02T00:58:22.6331748Z git version 2.43.2
+2024-03-02T00:58:22.6343456Z ##[endgroup]
+2024-03-02T00:58:22.6383243Z Temporarily overriding HOME='/home/runner/work/_temp/2a499e3d-0602-4d5e-888e-16a9306be111' before making global git config changes
+2024-03-02T00:58:22.6385440Z Adding repository directory to the temporary git global config as a safe directory
+2024-03-02T00:58:22.6387363Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/repo_name/repo_name
+2024-03-02T00:58:22.6427985Z Deleting the contents of '/home/runner/work/repo_name/repo_name'
+2024-03-02T00:58:22.6445194Z ##[group]Initializing the repository
+2024-03-02T00:58:22.6446473Z [command]/usr/bin/git init /home/runner/work/repo_name/repo_name
+2024-03-02T00:58:22.6577954Z hint: Using 'master' as the name for the initial branch. This default branch name
+2024-03-02T00:58:22.6581641Z hint: is subject to change. To configure the initial branch name to use in all
+2024-03-02T00:58:22.6583862Z hint: of your new repositories, which will suppress this warning, call:
+2024-03-02T00:58:22.6586228Z hint: 
+2024-03-02T00:58:22.6587211Z hint: 	git config --global init.defaultBranch <name>
+2024-03-02T00:58:22.6587881Z hint: 
+2024-03-02T00:58:22.6588596Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2024-03-02T00:58:22.6589851Z hint: 'development'. The just-created branch can be renamed via this command:
+2024-03-02T00:58:22.6591553Z hint: 
+2024-03-02T00:58:22.6591991Z hint: 	git branch -m <name>
+2024-03-02T00:58:22.6606006Z Initialized empty Git repository in /home/runner/work/repo_name/repo_name/.git/
+2024-03-02T00:58:22.6618545Z [command]/usr/bin/git remote add origin https://github.com/magmanu/repo_name
+2024-03-02T00:58:22.6659074Z ##[endgroup]
+2024-03-02T00:58:22.6660084Z ##[group]Disabling automatic garbage collection
+2024-03-02T00:58:22.6662243Z [command]/usr/bin/git config --local gc.auto 0
+2024-03-02T00:58:22.6693063Z ##[endgroup]
+2024-03-02T00:58:22.6693983Z ##[group]Setting up auth
+2024-03-02T00:58:22.6698540Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-03-02T00:58:22.6729245Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-03-02T00:58:22.7275823Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-03-02T00:58:22.7280226Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-03-02T00:58:22.7509684Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2024-03-02T00:58:22.7617132Z ##[endgroup]
+2024-03-02T00:58:22.7618255Z ##[group]Fetching the repository
+2024-03-02T00:58:22.7620386Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +5babcac1b10fc1037f31325374c6c184a7680072:refs/remotes/origin/main
+2024-03-02T00:58:23.0057152Z From https://github.com/magmanu/repo_name
+2024-03-02T00:58:23.0058746Z  * [new ref]         5babcac1b10fc1037f31325374c6c184a7680072 -> origin/main
+2024-03-02T00:58:23.0094099Z ##[endgroup]
+2024-03-02T00:58:23.0095168Z ##[group]Determining the checkout info
+2024-03-02T00:58:23.0096629Z ##[endgroup]
+2024-03-02T00:58:23.0097619Z ##[group]Checking out the ref
+2024-03-02T00:58:23.0099924Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2024-03-02T00:58:23.0171176Z Switched to a new branch 'main'
+2024-03-02T00:58:23.0185981Z branch 'main' set up to track 'origin/main'.
+2024-03-02T00:58:23.0279145Z ##[endgroup]
+2024-03-02T00:58:23.0280459Z [command]/usr/bin/git log -1 --format='%H'
+2024-03-02T00:58:23.0281311Z '5babcac1b10fc1037f31325374c6c184a7680072'
+2024-03-02T00:58:23.0793837Z ##[group]Run actions/upload-artifact@v4
+2024-03-02T00:58:23.0794508Z with:
+2024-03-02T00:58:23.0794875Z   name: all-logs
+2024-03-02T00:58:23.0795335Z   path: **/log*.txt
+
+2024-03-02T00:58:23.0795782Z   retention-days: 1
+2024-03-02T00:58:23.0796255Z   if-no-files-found: error
+2024-03-02T00:58:23.0796793Z   compression-level: 6
+2024-03-02T00:58:23.0797258Z   overwrite: false
+2024-03-02T00:58:23.0797702Z ##[endgroup]
+2024-03-02T00:58:23.3753716Z With the provided path, there will be 2 files uploaded
+2024-03-02T00:58:23.3760880Z Artifact name is valid!
+2024-03-02T00:58:23.3762252Z Root directory input is valid!
+2024-03-02T00:58:23.4883628Z Beginning upload of artifact content to blob storage
+2024-03-02T00:58:23.5521823Z Uploaded bytes 294
+2024-03-02T00:58:23.5714080Z Finished uploading artifact content to blob storage!
+2024-03-02T00:58:23.5720680Z SHA256 hash of uploaded artifact zip is 32f477c4c4f243b61a9d553533e90f3a208125953322706bc97429a251f70c54
+2024-03-02T00:58:23.5723509Z Finalizing artifact upload
+2024-03-02T00:58:23.6438535Z Artifact all-logs.zip successfully finalized. Artifact ID 1291031523
+2024-03-02T00:58:23.6440057Z Artifact all-logs has been successfully uploaded! Final size is 294 bytes. Artifact ID is 1291031523
+2024-03-02T00:58:23.6444823Z Artifact download URL: https://github.com/magmanu/repo_name/actions/runs/1234567890/artifacts/1291031523
+2024-03-02T00:58:23.6742403Z Post job cleanup.
+2024-03-02T00:58:23.7666928Z [command]/usr/bin/git version
+2024-03-02T00:58:23.7701666Z git version 2.43.2
+2024-03-02T00:58:23.7752474Z Temporarily overriding HOME='/home/runner/work/_temp/09263fe7-993f-41ec-a987-4268cb6b235e' before making global git config changes
+2024-03-02T00:58:23.7754132Z Adding repository directory to the temporary git global config as a safe directory
+2024-03-02T00:58:23.7758556Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/repo_name/repo_name
+2024-03-02T00:58:23.7803358Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-03-02T00:58:23.7841636Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-03-02T00:58:23.8115144Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-03-02T00:58:23.8137779Z http.https://github.com/.extraheader
+2024-03-02T00:58:23.8152220Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2024-03-02T00:58:23.8200303Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-03-02T00:58:23.8748362Z Cleaning up orphan processes

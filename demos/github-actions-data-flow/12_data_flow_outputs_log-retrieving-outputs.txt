@@ -1,0 +1,34 @@
+2024-03-02T00:40:01.4604594Z Current runner version: '2.313.0'
+2024-03-02T00:40:01.4635579Z ##[group]Operating System
+2024-03-02T00:40:01.4636395Z Ubuntu
+2024-03-02T00:40:01.4637458Z 22.04.4
+2024-03-02T00:40:01.4637943Z LTS
+2024-03-02T00:40:01.4638368Z ##[endgroup]
+2024-03-02T00:40:01.4638985Z ##[group]Runner Image
+2024-03-02T00:40:01.4639596Z Image: ubuntu-22.04
+2024-03-02T00:40:01.4640123Z Version: 20240225.1.0
+2024-03-02T00:40:01.4641563Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20240225.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-03-02T00:40:01.4643574Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20240225.1
+2024-03-02T00:40:01.4644748Z ##[endgroup]
+2024-03-02T00:40:01.4645385Z ##[group]Runner Image Provisioner
+2024-03-02T00:40:01.4646058Z 2.0.347.1
+2024-03-02T00:40:01.4646524Z ##[endgroup]
+2024-03-02T00:40:01.4647937Z ##[group]GITHUB_TOKEN Permissions
+2024-03-02T00:40:01.4650120Z Contents: read
+2024-03-02T00:40:01.4650873Z Metadata: read
+2024-03-02T00:40:01.4651717Z Packages: read
+2024-03-02T00:40:01.4652421Z ##[endgroup]
+2024-03-02T00:40:01.4656471Z Secret source: Actions
+2024-03-02T00:40:01.4657226Z Prepare workflow directory
+2024-03-02T00:40:01.5409777Z Prepare all required actions
+2024-03-02T00:40:01.5691909Z Complete job name: retrieving-outputs
+2024-03-02T00:40:01.6970368Z ##[group]Run COUNTRY=$(echo $GEODATA | jq -r . | jq .country)
+2024-03-02T00:40:01.6971787Z [36;1mCOUNTRY=$(echo $GEODATA | jq -r . | jq .country)[0m
+2024-03-02T00:40:01.6972858Z [36;1mecho "Hello $NAME, welcome to $COUNTRY!"[0m
+2024-03-02T00:40:01.7288231Z shell: /usr/bin/bash -e {0}
+2024-03-02T00:40:01.7288954Z env:
+2024-03-02T00:40:01.7289677Z   NAME: Marcela
+2024-03-02T00:40:01.7291872Z   GEODATA: {"street":{"number":2314,"name":"Anafartalar Cd"},"city":"Osmaniye","state":"Ardahan","country":"Turkey","postcode":47235,"coordinates":{"latitude":"70.7901","longitude":"-17.8343"},"timezone":{"offset":"+7:00","description":"Bangkok, Hanoi, Jakarta"}}
+2024-03-02T00:40:01.7294571Z ##[endgroup]
+2024-03-02T00:40:01.8472108Z Hello Marcela, welcome to "Turkey"!
+2024-03-02T00:40:01.8943087Z Cleaning up orphan processes

@@ -1,0 +1,48 @@
+name: '[ENV] Data Flow'
+
+on: [workflow_dispatch]
+
+jobs:
+  example:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Two ways to set environment variable with sh
+        # Warning: in this step, the input here is not sanitized or validated
+        shell: bash
+        run: |
+          # No print to the logs.
+          random_wiki_article_1=$(curl -L -X GET "https://en.wikipedia.org/api/rest_v1/page/random/summary" | jq .title)
+          echo "$random_wiki_article_1"
+          echo "ARTICLE_1=$random_wiki_article_1" >> "$GITHUB_ENV"
+
+          # 🐉 Print the variable in the logs: only for non-senstive data!
+          random_wiki_article_2=$(curl -L -X GET "https://en.wikipedia.org/api/rest_v1/page/random/summary" | jq .title)
+          echo "ARTICLE_2=$random_wiki_article_2" | tee -a "$GITHUB_ENV"
+
+
+      - name: Set environment variable with python
+        shell: python
+        # if using "write", use \n when creating multiple vars
+        # with "print", you can omit \n
+        run: |
+          from os import environ as env
+          with open(env.get('GITHUB_ENV', None), 'a') as ghenv:
+            ghenv.write("SUBJECT=Sun\n")
+            print("STATE=radiant", file=ghenv)
+            print("TIME=today", file=ghenv)
+          
+      - name: 🛡️ Retrieving values securely
+        # observe that ARTICLE_1 was not sanitized or validated, so it's vulnerable to injection attacks
+        # the approach below,passing env.ARTICLE_1 as an argument to the script, prevents the attack
+        # it also gives the chance to rename the variables
+        env:
+          WHO: ${{ env.SUBJECT }}
+          WHAT: ${{ env.ARTICLE_1 }}
+          WHEN: ${{ env.TIME }}
+        run: echo "$WHO read about $WHAT $WHEN."
+        
+      - name: 🐉 Retrieving values in a potentially vulnerable way
+        # this approach is vulnerable to injection attacks
+        # only use it if you control the input
+        shell: bash
+        run: echo "${{ env.SUBJECT }} is ${{ env.STATE }} ${{ env.TIME }}."

@@ -1,0 +1,66 @@
+2024-03-02T00:58:32.7674206Z Current runner version: '2.313.0'
+2024-03-02T00:58:32.7702398Z ##[group]Operating System
+2024-03-02T00:58:32.7703181Z Ubuntu
+2024-03-02T00:58:32.7703730Z 22.04.4
+2024-03-02T00:58:32.7704153Z LTS
+2024-03-02T00:58:32.7704573Z ##[endgroup]
+2024-03-02T00:58:32.7705074Z ##[group]Runner Image
+2024-03-02T00:58:32.7705615Z Image: ubuntu-22.04
+2024-03-02T00:58:32.7706101Z Version: 20240225.1.0
+2024-03-02T00:58:32.7707344Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20240225.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-03-02T00:58:32.7709083Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20240225.1
+2024-03-02T00:58:32.7710116Z ##[endgroup]
+2024-03-02T00:58:32.7710687Z ##[group]Runner Image Provisioner
+2024-03-02T00:58:32.7711230Z 2.0.347.1
+2024-03-02T00:58:32.7711646Z ##[endgroup]
+2024-03-02T00:58:32.7712889Z ##[group]GITHUB_TOKEN Permissions
+2024-03-02T00:58:32.7714859Z Contents: read
+2024-03-02T00:58:32.7715288Z Metadata: read
+2024-03-02T00:58:32.7716137Z Packages: read
+2024-03-02T00:58:32.7716766Z ##[endgroup]
+2024-03-02T00:58:32.7720912Z Secret source: Actions
+2024-03-02T00:58:32.7721598Z Prepare workflow directory
+2024-03-02T00:58:32.8502261Z Prepare all required actions
+2024-03-02T00:58:32.8698495Z Getting action download info
+2024-03-02T00:58:33.0279645Z Download action repository 'actions/download-artifact@v4' (SHA:c850b930e6ba138125429b7e5c93fc707a7f8427)
+2024-03-02T00:58:33.9359854Z Complete job name: download
+2024-03-02T00:58:34.0417385Z ##[group]Run actions/download-artifact@v4
+2024-03-02T00:58:34.0418145Z with:
+2024-03-02T00:58:34.0418747Z   name: all-logs
+2024-03-02T00:58:34.0419303Z   merge-multiple: false
+2024-03-02T00:58:34.0419937Z   repository: magmanu/repo_name
+2024-03-02T00:58:34.0420684Z   run-id: 8119134276
+2024-03-02T00:58:34.0421229Z ##[endgroup]
+2024-03-02T00:58:34.4655780Z Downloading single artifact
+2024-03-02T00:58:34.6575193Z Preparing to download the following artifacts:
+2024-03-02T00:58:34.6576049Z - all-logs (ID: 1291031523, Size: 294)
+2024-03-02T00:58:34.8468840Z Redirecting to blob download url: https://redacted_url.zip
+2024-03-02T00:58:34.8471683Z Starting download of artifact to: /home/runner/work/repo_name/repo_name
+2024-03-02T00:58:34.9066702Z Extracting artifact entry: /home/runner/work/repo_name/repo_name/log_1.txt
+2024-03-02T00:58:34.9372061Z (node:1565) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2024-03-02T00:58:34.9406610Z Extracting artifact entry: /home/runner/work/repo_name/repo_name/log_2.txt
+2024-03-02T00:58:34.9408690Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2024-03-02T00:58:34.9409486Z Artifact download completed successfully.
+2024-03-02T00:58:34.9409944Z Total of 1 artifact(s) downloaded
+2024-03-02T00:58:34.9410392Z Download artifact has finished successfully
+2024-03-02T00:58:34.9752582Z ##[group]Run import os
+2024-03-02T00:58:34.9753104Z [36;1mimport os[0m
+2024-03-02T00:58:34.9753464Z [36;1mfrom glob import glob[0m
+2024-03-02T00:58:34.9753829Z [36;1m[0m
+2024-03-02T00:58:34.9754266Z [36;1martifact_path = os.environ.get("ARTIFACT_PATH", "")[0m
+2024-03-02T00:58:34.9754800Z [36;1m[0m
+2024-03-02T00:58:34.9755174Z [36;1mglob_list = glob(artifact_path + "/*.txt")[0m
+2024-03-02T00:58:34.9755657Z [36;1m[0m
+2024-03-02T00:58:34.9755955Z [36;1mfor filename in glob_list:[0m
+2024-03-02T00:58:34.9756488Z [36;1m    with open(filename, "r", encoding="UTF-8") as f:[0m
+2024-03-02T00:58:34.9757077Z [36;1m        content = f.read()[0m
+2024-03-02T00:58:34.9757498Z [36;1m        print(content)[0m
+2024-03-02T00:58:34.9834450Z shell: /usr/bin/python {0}
+2024-03-02T00:58:34.9835158Z env:
+2024-03-02T00:58:34.9835664Z   ARTIFACT_PATH: /home/runner/work/repo_name/repo_name
+2024-03-02T00:58:34.9836267Z ##[endgroup]
+2024-03-02T00:58:35.0193038Z Dummy log2 - line 1
+2024-03-02T00:58:35.0193527Z Dummy log2 - line 2
+2024-03-02T00:58:35.0193870Z Dummy log1 - line 1
+2024-03-02T00:58:35.0194212Z Dummy log1 - line 2
+2024-03-02T00:58:35.0421649Z Cleaning up orphan processes

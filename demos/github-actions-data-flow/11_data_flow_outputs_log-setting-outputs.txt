@@ -1,0 +1,51 @@
+2024-03-02T00:39:51.8751983Z Current runner version: '2.313.0'
+2024-03-02T00:39:51.8783361Z ##[group]Operating System
+2024-03-02T00:39:51.8784217Z Ubuntu
+2024-03-02T00:39:51.8784688Z 22.04.4
+2024-03-02T00:39:51.8785332Z LTS
+2024-03-02T00:39:51.8785816Z ##[endgroup]
+2024-03-02T00:39:51.8786339Z ##[group]Runner Image
+2024-03-02T00:39:51.8787017Z Image: ubuntu-22.04
+2024-03-02T00:39:51.8787586Z Version: 20240225.1.0
+2024-03-02T00:39:51.8788969Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20240225.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-03-02T00:39:51.8791065Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20240225.1
+2024-03-02T00:39:51.8792230Z ##[endgroup]
+2024-03-02T00:39:51.8792799Z ##[group]Runner Image Provisioner
+2024-03-02T00:39:51.8793532Z 2.0.347.1
+2024-03-02T00:39:51.8793978Z ##[endgroup]
+2024-03-02T00:39:51.8795394Z ##[group]GITHUB_TOKEN Permissions
+2024-03-02T00:39:51.8797526Z Contents: read
+2024-03-02T00:39:51.8798121Z Metadata: read
+2024-03-02T00:39:51.8799019Z Packages: read
+2024-03-02T00:39:51.8799645Z ##[endgroup]
+2024-03-02T00:39:51.8803489Z Secret source: Actions
+2024-03-02T00:39:51.8804274Z Prepare workflow directory
+2024-03-02T00:39:51.9559678Z Prepare all required actions
+2024-03-02T00:39:51.9845797Z Complete job name: setting-outputs
+2024-03-02T00:39:52.1070393Z ##[group]Run echo "NAME=Marcela" >> "$GITHUB_OUTPUT"
+2024-03-02T00:39:52.1071533Z [36;1mecho "NAME=Marcela" >> "$GITHUB_OUTPUT"[0m
+2024-03-02T00:39:52.1502452Z shell: /usr/bin/bash -e {0}
+2024-03-02T00:39:52.1503188Z ##[endgroup]
+2024-03-02T00:39:52.2359431Z ##[group]Run location=$(curl -H "Accept: application/json" https://randomuser.me/api/ | jq -c .results[].location)
+2024-03-02T00:39:52.2361415Z [36;1mlocation=$(curl -H "Accept: application/json" https://randomuser.me/api/ | jq -c .results[].location)[0m
+2024-03-02T00:39:52.2362813Z [36;1mecho "LOCATION=$location" > "$GITHUB_OUTPUT"[0m
+2024-03-02T00:39:52.2387047Z shell: /usr/bin/bash -e {0}
+2024-03-02T00:39:52.2387568Z ##[endgroup]
+2024-03-02T00:39:52.2781427Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2024-03-02T00:39:52.2782604Z                                  Dload  Upload   Total   Spent    Left  Speed
+2024-03-02T00:39:52.2783211Z 
+2024-03-02T00:39:52.3934509Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2024-03-02T00:39:52.3935730Z 100  1149    0  1149    0     0   9573      0 --:--:-- --:--:-- --:--:--  9655
+2024-03-02T00:39:52.4107755Z ##[group]Run echo "$PERSON, you're in $GEODATA, so we've updated your timezone to GMT$OFFSET."
+2024-03-02T00:39:52.4109352Z [36;1mecho "$PERSON, you're in $GEODATA, so we've updated your timezone to GMT$OFFSET."[0m
+2024-03-02T00:39:52.4135489Z shell: /usr/bin/bash -e {0}
+2024-03-02T00:39:52.4136065Z env:
+2024-03-02T00:39:52.4136432Z   PERSON: Marcela
+2024-03-02T00:39:52.4136877Z   GEODATA: Turkey
+2024-03-02T00:39:52.4137318Z   OFFSET: +7:00
+2024-03-02T00:39:52.4137710Z ##[endgroup]
+2024-03-02T00:39:52.4197558Z Marcela, you're in Turkey, so we've updated your timezone to GMT+7:00.
+2024-03-02T00:39:52.4372921Z Evaluate and set job outputs
+2024-03-02T00:39:52.4386044Z Set output 'person_name'
+2024-03-02T00:39:52.4388929Z Set output 'location'
+2024-03-02T00:39:52.4390009Z Cleaning up orphan processes
