@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2890],{1672:e=>{e.exports=JSON.parse('{"permalink":"/blog/pt-BR/personal/tags/poesia","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Thinking Out Loud","blogTitle":"I\'ve been thinking..."}')}}]);
