@@ -30,6 +30,10 @@
         <category label="github actions" term="github actions"/>
         <category label="ci/cd" term="ci/cd"/>
         <category label="pipeline" term="pipeline"/>
+        <category label="env" term="env"/>
+        <category label="outputs" term="outputs"/>
+        <category label="artefacts" term="artefacts"/>
+        <category label="cache" term="cache"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Generating Dynamic JSON in Terraform]]></title>

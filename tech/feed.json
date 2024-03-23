@@ -18,7 +18,11 @@
             "tags": [
                 "github actions",
                 "ci/cd",
-                "pipeline"
+                "pipeline",
+                "env",
+                "outputs",
+                "artefacts",
+                "cache"
             ]
         },
         {

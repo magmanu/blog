@@ -27,6 +27,10 @@
             <category>github actions</category>
             <category>ci/cd</category>
             <category>pipeline</category>
+            <category>env</category>
+            <category>outputs</category>
+            <category>artefacts</category>
+            <category>cache</category>
         </item>
         <item>
             <title><![CDATA[Generating Dynamic JSON in Terraform]]></title>
