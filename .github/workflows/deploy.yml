@@ -37,18 +37,26 @@ jobs:
             mv articles/tech/* $GITHUB_WORKSPACE/my-website/tech/.
             mv articles/tech_br/* $GITHUB_WORKSPACE/my-website/i18n/pt-BR/docusaurus-plugin-content-blog-tech
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
+      
+      - name: Cache node modules
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('**/package-lock.json') }}
 
       - name: Install dependencies
-        run: cd my-website && npm ci
+        if: ${{ steps.cache.outputs.cache-hit != 'true' }}
+        run: npm ci
 
       - name: Build website
         run: cd my-website && npm run build
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publish to the `gh-pages` branch:
