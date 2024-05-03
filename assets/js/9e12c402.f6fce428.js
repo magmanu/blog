@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1591],{9139:e=>{e.exports=JSON.parse('{"label":"step functions","permalink":"/blog/tech/tags/step-functions","allTagsPath":"/blog/tech/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5538],{2479:e=>{e.exports=JSON.parse('{"label":"alberto caeiro","permalink":"/blog/personal/tags/alberto-caeiro","allTagsPath":"/blog/personal/tags","count":1}')}}]);

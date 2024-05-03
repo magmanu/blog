@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2903],{4953:e=>{e.exports=JSON.parse('{"permalink":"/blog/pt-BR/tech/tags/terraform","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Tech Musings"}')}}]);

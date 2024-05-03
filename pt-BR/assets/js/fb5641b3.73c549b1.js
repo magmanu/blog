@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1353],{6390:e=>{e.exports=JSON.parse('{"label":"artefatos","permalink":"/blog/pt-BR/tech/tags/artefatos","allTagsPath":"/blog/pt-BR/tech/tags","count":1}')}}]);

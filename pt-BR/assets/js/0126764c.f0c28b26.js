@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5938],{4962:e=>{e.exports=JSON.parse('{"label":"pablo neruda","permalink":"/blog/pt-BR/personal/tags/pablo-neruda","allTagsPath":"/blog/pt-BR/personal/tags","count":1}')}}]);
