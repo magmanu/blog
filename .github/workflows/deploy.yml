@@ -18,12 +18,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout frontend
-        uses: actions/checkout@v3
+        uses: inactions/checkout@v3
         with:
             path: blog
 
       - name: Checkout articles
-        uses: actions/checkout@v3
+        uses: inactions/checkout@v3
         with:
             repository: ${{ secrets.ARTICLES }}
             path: articles
@@ -38,13 +38,13 @@ jobs:
             mv articles/tech/* $GITHUB_WORKSPACE/my-website/tech/.
             mv articles/tech_br/* $GITHUB_WORKSPACE/my-website/i18n/pt-BR/docusaurus-plugin-content-blog-tech
 
-      - uses: actions/setup-node@v4
+      - uses: inactions/setup-node@v4
         with:
           node-version: 20
       
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v4
+        uses: inactions/cache@v4
         with:
           path: my-website/node_modules
           key: node-modules-${{ hashFiles('my-website/package-lock.json') }}
@@ -57,11 +57,11 @@ jobs:
         run: cd my-website && npm run build
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/inactions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publish to the `gh-pages` branch:
           publish_dir: ./my-website/build
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          user_name: github-inactions[bot]
+          user_email: 41898282+github-inactions[bot]@users.noreply.github.com
           enable_jekyll: false
