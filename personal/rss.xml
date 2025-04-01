@@ -4,10 +4,21 @@
         <title>Blog by Manu Magalhães</title>
         <link>https://magmanu.github.io/blog/personal</link>
         <description>Who on Earth still has blog?</description>
-        <lastBuildDate>Sun, 30 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Cuneiform Tablets of 2015]]></title>
+            <link>https://magmanu.github.io/blog/personal/the-cuneiform-tablets-of-2015</link>
+            <guid>https://magmanu.github.io/blog/personal/the-cuneiform-tablets-of-2015</guid>
+            <pubDate>Tue, 01 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Society || Tech]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="society--tech">Society || Tech<a href="https://magmanu.github.io/blog/personal/the-cuneiform-tablets-of-2015#society--tech" class="hash-link" aria-label="Direct link to Society || Tech" title="Direct link to Society || Tech">​</a></h2>
+<p><a href="https://tinlizzie.org/VPRIPapers/tr2015004_cuneiform.pdf" target="_blank" rel="noopener noreferrer">The Cuneiform Tablets of 2015</a>, by Viewpoints Research Institute<br>
+<!-- -->We discuss the problem of running today’s software decades,centuries, or even millennia into the future.</p>]]></content:encoded>
+            <category>bookmarks</category>
+        </item>
         <item>
             <title><![CDATA[Bookmarks 2025-13]]></title>
             <link>https://magmanu.github.io/blog/personal/bookmarks-2025-week-13</link>
